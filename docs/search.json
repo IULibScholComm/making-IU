@@ -1,0 +1,82 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Making Indiana University",
+    "section": "",
+    "text": "Front Matter",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Front Matter</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. “Literate Programming.” Comput.\nJ. 27, no. 2 (May 1984): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "Making Indiana University",
+    "section": "How to Use",
+    "text": "How to Use\nHow to Access this Book in Other Formats\n\nEPUB: click  in the left-hand sidebar\n\nEPUB’s benefits include accessibility, manipulability (via eReader options), dynamic media, interactivity, reflowable text, and offline reading\n\nPDF: click  in the left-hand sidebar\n\nPDF’s benefits include printability of physical copies\n\nQuarto Markdown (QMD): click  View source in the right-hand sidebar\n\nQMD’s benefits include reusability (revising, remixing, reformatting, repurposing, etc.) via a universal format\n\nTeX: click  View source in the right-hand sidebar; then in the left-hand sidebar, select Afterthought.tex\n\n(La)TeX’s benefits include advanced document formatting and typesetting\n\n\nHow to Report a Problem (Technological, Accessibility, Textual, Etc.) with this Book\nClick Report an issue in the right-hand sidebar of the HTML version; then complete and submit the bug report.\nTo Learn More\nTo learn more about how to use the HTML book, see Quarto’s Guide, or try its features.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Front Matter</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#copyright-and-license",
+    "href": "index.html#copyright-and-license",
+    "title": "Making Indiana University",
+    "section": "Copyright and License",
+    "text": "Copyright and License\n© 2025 Heather Akou\n\n\nAfterthought: A Family Story by Heather Akou is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International\n\nYou are free to:\n\nShare—copy and redistribute the material in any medium or format\n\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\n\nUnder the following terms:\n\nAttribution—You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner but not in any way that suggests the licensor endorses you or your use.\n\nNonCommercial—You may not use the material for commercial purposes .\nNoDerivatives—If you remix, transform, or build upon the material, you may not distribute the modified material.\n\nNo additional restrictions—You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nNotices:\n\nYou do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Front Matter</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#publisher",
+    "href": "index.html#publisher",
+    "title": "Making Indiana University",
+    "section": "Publisher",
+    "text": "Publisher\n\n\nIndiana University Bloomington Libraries Publishing\n1320 E. Tenth Street\nBloomington, IN 47405",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Front Matter</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#cover-information",
+    "href": "index.html#cover-information",
+    "title": "Making Indiana University",
+    "section": "Cover Information",
+    "text": "Cover Information\nCover Image: Cover Design:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Front Matter</span>"
+    ]
+  }
+]

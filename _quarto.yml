@@ -1,0 +1,132 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: Making Indiana University
+  subtitle: History, Landscape, and a Sense of Place 
+  author: 
+    name: James H. Capshew
+    corresponding: true
+    affiliations: 
+      - name: |- 
+          Department of History and Philosophy of Science and Medicine
+          
+          Indiana University Bloomington 
+        department: History and Philosophy of Science and Medicine
+        address: Ballantine Hall 920
+        city: Bloomington
+        state: IN
+        country: USA
+        postal-code: 47405
+        url: https://hpsc.indiana.edu/index.html
+        ror: https://ror.org/02k40bc56
+    email: jcapshew@indiana.edu 
+    url: https://hpsc.indiana.edu/about/emeriti-faculty/capshew-james.html
+    orcid: 0009-0009-3238-9464
+    degrees: 
+      - PhD
+  date: last-modified
+  date-format: "YYYY"
+  abstract: Essays exploring institutional culture, campus design, and sense of place at Indiana University Bloomington. 
+  description: |
+    This book sheds light on the creation of Indiana University's institutional identity and image over its two centuries of existence by investigating the role of historians, archivists, and others in documenting its historical record. As such, it is an exercise in historiography, or the study of the history of IU history. By its interrogation of the sources and methods that construct the historical record, this book makes a unique contribution to the study of Indiana University history and culture. 
+  references: references.bib
+  cover-image: images/miu1.jpeg
+  #cover-image-alt: 
+  downloads: [pdf, epub]
+  #doi:
+  language: "en-US"
+  license: "CC BY-NC-ND 4.0"
+  type: book
+  publisher: "Indiana University Bloomington Libraries Publishing"
+  publisher-place: Bloomington, IN
+  favicon: images/miu1.jpeg
+  # site-url: 
+  # repo-url: 
+  # issue-url: 
+  repo-actions: [source, issue]
+  reader-mode: true
+  # google-analytics: 
+  search: 
+    location: sidebar
+    type: textbox
+    copy-button: true
+    show-item-context: true
+  page-navigation: true
+  back-to-top-navigation: true
+  image: images/miu1.jpeg
+  # image-alt: 
+  bread-crumbs: true
+  twitter-card: true
+  open-graph: true
+  sidebar: 
+    aria-label: Table of Contents
+    style: docked
+    collapse-level: 1
+    pinned: true
+    # logo: images/miu1.jpeg
+    # logo-alt: 
+
+
+
+
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+google-scholar: true
+csl: chicago-fullnote-bibliography-no-em-dash.csl
+citations-hover: true
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: default
+      dark: darkly
+      # css:
+    anchor-sections: true
+    smooth-scroll: true
+    section-divs: true
+    email-obfuscation: references
+    html-q-tags: true
+    toc: true
+    fig-cap-location: margin
+    page-layout: article
+    appendix-style: default
+    appendix-cite-as: bibtex
+    title-block-style: default
+    lightbox: true
+    link-external-newwindow: true
+    format-links: true
+    citation-location: document
+    citeproc: true
+    footnotes-hover: true
+    crossrefs-hover: true
+    lang: "en-US"
+    number-sections: false
+    # include-in-header: 
+
+  pdf:
+    documentclass: scrreprt
+
+  epub: 
+    # epub-cover-image: 
+    # css: style.css
+    html-q-tags: true
+    toc: true
+    lang: "en-US"
+    fig-align: left
+    fig-responsive: true
+    number-sections: false
+    keywords: historical documentation, history, historiography, university culture, campus design history, university biography, university necrology, historical preservation, historians, archivists
+    subject: history of Indiana University
+    page-progression-direction: ltr
+    citeproc: true
+    dir: ltr
+    date-meta: YYYY
+
