@@ -4,7 +4,7 @@ project:
 
 book:
   title: Making Indiana University
-  subtitle: History, Landscape, and a Sense of Place 
+  subtitle: History, Landscape, and a Sense of Place
   author: 
     name: James H. Capshew
     corresponding: true
@@ -28,9 +28,10 @@ book:
       - PhD
   date: last-modified
   date-format: "YYYY"
-  abstract: Essays exploring institutional culture, campus design, and sense of place at Indiana University Bloomington. 
+  abstract: |
+    This book sheds light on the creation of Indiana University's institutional identity and image over its two centuries of existence by investigating the role of historians, archivists, and others in documenting its historical record. As such, it is an exercise in historiography, or the study of the history of IU history. The first part presents a rationale for an inclusive view of contributors to IU history, including not only historians and archivists but also architects, groundskeepers, and other members of its academic community. Essays on the contributions of the first professor as well as the invention of the genre of Indiana University history provides a useful provenance. The second section supplies a chronological study of the history of IU's distinctive campus design, from its beginning in 1885 to 2020, to illustrate the essential role that place plays in university culture. The third and final part are essays that uncover hidden efforts to sustain the university's historical record in publications, faculty memorials, and historic preservation. By its interrogation of the sources and methods that construct the historical record, this book makes a unique contribution to the study of Indiana University history and culture.  
   description: |
-    This book sheds light on the creation of Indiana University's institutional identity and image over its two centuries of existence by investigating the role of historians, archivists, and others in documenting its historical record. As such, it is an exercise in historiography, or the study of the history of IU history. By its interrogation of the sources and methods that construct the historical record, this book makes a unique contribution to the study of Indiana University history and culture. 
+    Essays exploring institutional culture, campus design, and sense of place at Indiana University Bloomington. 
   references: references.bib
   cover-image: images/miu1.jpeg
   #cover-image-alt: 
@@ -43,8 +44,8 @@ book:
   publisher-place: Bloomington, IN
   favicon: images/miu1.jpeg
   # site-url: 
-  # repo-url: 
-  # issue-url: 
+  repo-url: https://github.com/IULibScholComm/making-IU
+  issue-url: https://github.com/IULibScholComm/making-IU/issues
   repo-actions: [source, issue]
   reader-mode: true
   # google-analytics: 
@@ -110,9 +111,6 @@ format:
     lang: "en-US"
     number-sections: false
     # include-in-header: 
-
-  pdf:
-    documentclass: scrreprt
 
   epub: 
     # epub-cover-image: 
