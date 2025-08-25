@@ -12,12 +12,12 @@
     - PDF's benefits include printability of physical copies
 - **Quarto Markdown (QMD):** click "<i class="bi bi-github"></i> View source" in the right-hand sidebar
     - QMD's benefits include reusability (revising, remixing, reformatting, repurposing, etc.) via a universal format
-- **TeX:** click "<i class="bi bi-github"></i> View source" in the right-hand sidebar; then in the left-hand sidebar, select "TKTKTKTK"
+- **TeX:** click "<i class="bi bi-github"></i> View source" in the right-hand sidebar; then in the left-hand sidebar, select "Making-Indiana-University.tex"
     - (La)TeX's benefits include advanced document formatting and typesetting 
 
 ### How to Report a Problem with this Book
 
-Click "Report an issue" in the right-hand sidebar of the [HTML version](); then complete and submit the bug report. 
+Click "Report an issue" in the right-hand sidebar of the [HTML version](https://iulibscholcomm.github.io/making-IU/); then complete and submit the bug report. 
 
 ### To Learn More
 

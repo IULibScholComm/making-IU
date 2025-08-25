@@ -57,6 +57,7 @@ div.csl-indent {
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
@@ -99,21 +100,35 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SFJKVCT3LT"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-SFJKVCT3LT', { 'anonymize_ip': true});
+</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="style.css">
 <meta property="og:title" content="6&nbsp; Cultivating New Ground – Making Indiana University">
 <meta property="og:description" content="Essays exploring institutional culture, campus design, and sense of place at Indiana University Bloomington.">
-<meta property="og:image" content="./images/cover1-4.png">
+<meta property="og:image" content="https://iulibscholcomm.github.io/making-IU/images/cover1-4.png">
 <meta property="og:site_name" content="Making Indiana University">
 <meta property="og:image:alt" content="A drawing of the Rose Well House, constructed in 1908 and named for its benefactor, Theodore Rose, class of 1875. Located in Dunn's Woods near Owen Hall and Wylie Hall.">
+<meta property="og:image:height" content="3300">
+<meta property="og:image:width" content="2550">
 <meta name="twitter:title" content="6&nbsp; Cultivating New Ground – Making Indiana University">
 <meta name="twitter:description" content="Essays exploring institutional culture, campus design, and sense of place at Indiana University Bloomington.">
-<meta name="twitter:image" content="./images/cover1-4.png">
+<meta name="twitter:image" content="https://iulibscholcomm.github.io/making-IU/images/cover1-4.png">
 <meta name="twitter:image:alt" content="A drawing of the Rose Well House, constructed in 1908 and named for its benefactor, Theodore Rose, class of 1875. Located in Dunn's Woods near Owen Hall and Wylie Hall.">
+<meta name="twitter:image-height" content="3300">
+<meta name="twitter:image-width" content="2550">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="citation_title" content="[[6]{.chapter-number}&nbsp; [Cultivating New Ground]{.chapter-title}]{#sec-six .quarto-section-identifier}">
+<meta name="citation_fulltext_html_url" content="https://iulibscholcomm.github.io/making-IU/six.html">
 <meta name="citation_language" content="en-US">
 <meta name="citation_reference" content="citation_title=Gardens: An essay on the human condition;,citation_author=Robert Pogue Harrison;,citation_publication_date=2008;,citation_cover_date=2008;,citation_year=2008;">
 <meta name="citation_reference" content="citation_title=The spell of the sensuous: Perception and language in a more-than-human world;,citation_author=David Abram;,citation_publication_date=1996;,citation_cover_date=1996;,citation_year=1996;">
@@ -888,7 +903,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
+ <span class="menu-text">Bibliography</span></a>
   </div>
 </li>
     </ul>
@@ -2382,6 +2397,10 @@ Wylie, Theophilus A. <em>Indiana University, Its History from 1820, When Founded
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+    tabsets.forEach(function(tabset) {
+      const tabby = new Tabby('#' + tabset.id);
+    });
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -2452,7 +2471,7 @@ Wylie, Theophilus A. <em>Indiana University, Its History from 1820, When Founded
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/iulibscholcomm\.github\.io\/making-IU\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
