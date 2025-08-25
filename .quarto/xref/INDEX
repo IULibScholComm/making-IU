@@ -10,5 +10,65 @@
   },
   "references.qmd": {
     "references.html": "57e8954a"
+  },
+  "dedication.qmd": {
+    "dedication.html": "1a7cc40e"
+  },
+  "part1.qmd": {
+    "part1.html": "b654a77e"
+  },
+  "one.qmd": {
+    "one.html": "974df6db"
+  },
+  "two.qmd": {
+    "two.html": "c64584c4"
+  },
+  "three.qmd": {
+    "three.html": "49104f82"
+  },
+  "part2.qmd": {
+    "part2.html": "b5ff0283"
+  },
+  "four.qmd": {
+    "four.html": "d3213ddd"
+  },
+  "five.qmd": {
+    "five.html": "e9583135"
+  },
+  "six.qmd": {
+    "six.html": "8c775496"
+  },
+  "seven.qmd": {
+    "seven.html": "e6506223"
+  },
+  "part3.qmd": {
+    "part3.html": "cf46aaba"
+  },
+  "eight.qmd": {
+    "eight.html": "b96e931f"
+  },
+  "nine.qmd": {
+    "nine.html": "3f7967d7"
+  },
+  "ten.qmd": {
+    "ten.html": "c1e6d8e8"
+  },
+  "partcoda.qmd": {
+    "partcoda.html": "1d3df64f"
+  },
+  "coda.qmd": {
+    "coda.html": "9f270f6e"
+  },
+  "acknowledgements.qmd": {
+    "acknowledgements.html": "e4cf6d9a"
+  },
+  "acknowledgments.qmd": {
+    "acknowledgments.html": "801531a3"
+  },
+  "appendix.qmd": {
+    "appendix.html": "cce45537"
+  },
+  "imap.qmd": {
+    "imap.html": "a6ce59a8"
   }
 }

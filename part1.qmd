@@ -1,0 +1,24 @@
+# Part One: Provenance {.unnumbered #sec-partone} 
+
+:::: {.content-visible unless-format="pdf"}
+
+::: {.epigraph}
+
+Each age writes the history of the past anew with reference to the conditions uppermost in its own time.  
+[---Frederick Jackson Turner, *The Significance of History*]{.epigraph-source}
+
+:::
+
+:::: 
+
+::: {.content-visible when-format="pdf"}
+
+```{=latex}
+\epigraph{
+Each age writes the history of the past anew with reference to the conditions uppermost in its own time.} 
+{---Frederick Jackson Turner, \textit{The Significance of History}}
+```
+
+:::
+
+![First image of the Indiana University seal. Hand-drawn in the manuscript minutes of the Indiana University Board of Trustees, July 21, 1841. **&copy; Indiana University. Image from the [IU Archives](https://libraries.indiana.edu/university-archives).**](images/uniseal.jpg){fig-alt="Hand-drawn circular seal from 1841 with Latin text “SIGILLUM UNIVERSITATIS INDIANENSIS” (Seal of Indiana University) and the date “MDCCCXXX” (1830) around the border. At the center is an open book emitting rays of light, above the Latin motto “LUX ET VERITAS” (Light and Truth)." fig-scap="First Image of Indiana University Seal"}

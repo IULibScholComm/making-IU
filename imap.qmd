@@ -1,0 +1,94 @@
+# Campus Expansion Map (1885–2020) {.unnumbered}
+
+:::: {.content-hidden when-format="pdf" when-format="epub"}
+
+::: {role="region" aria-label="IU campus footprint over time (1885–2020), according to official campus maps."}
+
+```{r}
+#| fig-height: 7
+#| fig-cap: IU campus footprint over time (1885–2020), according to official campus maps, from twenty acres at the beginning to nearly 2,000 acres at present.<br><br>This interactive map illustrates the expansion of Indiana University Bloomington’s campus by overlaying its boundaries from the official campus maps of 1885, 1915, 1940, 1960, 1980, and 2020 onto a contemporary street map of Bloomington.<br><br>Sighted users can explore the map by toggling year layers to compare how the campus's shape and extent have changed. Screen reader users should refer to the static version (@fig-map), as interactive maps do not support alt text.
+
+# Load required libraries
+# For suppressing startup messages for cleaner output, and reading and working with spatial vector data
+suppressPackageStartupMessages(library(sf)) 
+# For building interactive web maps
+library(leaflet) 
+
+# Load GeoJSON files for each year's campus boundary and suppress output
+# Each file represents the campus footprint for a specific year
+campus_1885 <- invisible(st_read("mapdata/1885.geojson", quiet = TRUE))
+campus_1915 <- invisible(st_read("mapdata/1915.geojson", quiet = TRUE))
+campus_1940 <- invisible(st_read("mapdata/1940.geojson", quiet = TRUE))
+campus_1960 <- invisible(st_read("mapdata/1960.geojson", quiet = TRUE))
+campus_1980 <- invisible(st_read("mapdata/1980.geojson", quiet = TRUE))
+campus_2020 <- invisible(st_read("mapdata/2020.geojson", quiet = TRUE))
+
+# Add a 'Year' column to each dataset for labels and grouping in the map
+campus_1885$Year <- "1885"
+campus_1915$Year <- "1915"
+campus_1940$Year <- "1940"
+campus_1960$Year <- "1960"
+campus_1980$Year <- "1980"
+campus_2020$Year <- "2020"
+
+# Build the interactive leaflet map
+leaflet() %>%
+
+  # Add default OpenStreetMap tiles as the basemap
+  addTiles() %>% 
+
+  # Center map on IU Bloomington with apt zoom
+  setView(lng = -86.512450, lat = 39.178837, zoom = 14)  %>% 
+
+  # Add campus boundary polygons for each year as separate overlay layers
+  addPolygons(data = campus_1885,
+              color = "black",
+              fillOpacity = 0.3, weight = 1,
+              group = "1885", label = ~Year) %>%
+  addPolygons(data = campus_1915,
+              color = "black",
+              fillOpacity = 0.3, weight = 1,
+              group = "1915", label = ~Year) %>%
+  addPolygons(data = campus_1940,
+              color = "black",
+              fillOpacity = 0.3, weight = 1,
+              group = "1940", label = ~Year) %>%
+  addPolygons(data = campus_1960,
+              color = "black",
+              fillOpacity = 0.3, weight = 1,
+              group = "1960", label = ~Year) %>%
+  addPolygons(data = campus_1980,
+              color = "black",
+              fillOpacity = 0.3, weight = 1,
+              group = "1980", label = ~Year) %>%
+  addPolygons(data = campus_2020,
+              color = "black",
+              fillOpacity = 0.3, weight = 1,
+              group = "2020", label = ~Year) %>%
+
+  # Add a layer control panel so users can toggle visibility of each year's boundary  
+  addLayersControl(
+    overlayGroups = c("1885", "1915", "1940", "1960", "1980", "2020"),
+    options = layersControlOptions(collapsed = FALSE)
+  )
+```
+
+:::
+
+---
+
+![Static version of the IU campus footprint map (1885–2020), based on official campus maps, from twenty acres at the beginning to nearly 2,000 acres at present.](images/imap.PNG){#fig-map fig-alt="A static map showing the expansion of Indiana University Bloomington’s campus from 1885 to 2020. It overlays campus boundaries from six key years (1885, 1915, 1940, 1960, 1980, and 2020) onto a current street map of Bloomington, revealing significant growth, especially to the north and west."}
+
+::::
+
+::: {.content-visible when-format="epub"}
+
+![Static version of the IU campus footprint map (1885–2020), based on official campus maps, from twenty acres at the beginning to nearly 2,000 acres at present. The interactive version is available in the HTML edition.](images/imap.PNG){fig-alt="A static map showing the expansion of Indiana University Bloomington’s campus from 1885 to 2020. It overlays campus boundaries from six key years (1885, 1915, 1940, 1960, 1980, and 2020) onto a current street map of Bloomington, revealing significant growth, especially to the north and west."}
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+![Static version of the IU campus footprint map (1885–2020), based on official campus maps, from twenty acres at the beginning to nearly 2,000 acres at present. The interactive version is available in the HTML edition.](images/imap.PNG){fig-scap="Static version of the IU campus footprint map (1885–2020)" width="85%"}
+
+:::

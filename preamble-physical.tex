@@ -1,0 +1,52 @@
+% ===============================================================
+% URL / HYPERLINK CONFIGURATION FOR PRINT
+% ===============================================================
+
+\usepackage{xurl}        % Smarter line breaking for URLs
+\PassOptionsToPackage{
+  hidelinks,        % Remove color/boxes from links (physical print)
+  breaklinks=true,  % Enable line breaking in long links (physical print)
+  pdfencoding=auto, % Ensure proper encoding of accented/Unicode chars
+  psdextra          % Allow extra PDF characters
+}{hyperref}
+\usepackage{hyperref}    % Manage cross-references, URLs, PDF metadata
+
+% Force all hyperlinks to black (avoids blue or colored links in print)
+\makeatletter
+\AtBeginDocument{
+  \hypersetup{
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black,
+    colorlinks=true
+  }
+}
+\makeatother
+
+% Custom URL line breaking (prevents overrunning margins)
+\def\UrlBreaks{
+  \do\/\do-\do.\do:\do?\do=\do\&\do_\do~
+  \do0\do1\do2\do3\do4\do5\do6\do7\do8\do9
+  \do\#\do\%\do\@\do\+\do\!\do\;\do,\do\'\do\"\do\(\do\)\do\[\do\]
+}
+
+% URL font style in bibliography
+\renewcommand{\UrlFont}{\footnotesize\ttfamily}
+
+% ===============================================================
+% BIBLIOGRAPHY / CSL REFERENCES ADJUSTMENTS
+% ===============================================================
+
+% Patch CSLReferences environment for improved line breaking and typography
+\makeatletter
+\patchcmd{\CSLReferences}
+  {\begin{list}}  % Keep default list initialization
+  {\begin{list}}
+  {}{}
+\apptocmd{\CSLReferences}{
+  \raggedright                % Avoid full justification in references
+  \setlength{\emergencystretch}{2em}  % Allow some stretch to reduce gaps
+  \brokenpenalty=10000        % Prevent breaking across pages for individual items
+  \interlinepenalty=10000     % Discourage LaTeX from breaking lines awkwardly
+}{}{}
+\makeatother

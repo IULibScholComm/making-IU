@@ -1,0 +1,55 @@
+% ===============================================================
+% PACKAGES FOR LAYOUT AND FORMATTING
+% ===============================================================
+
+\usepackage{changepage}  % change page layout (optional; remove if unused)
+\usepackage{etoolbox}    % Provides programming tools for LaTeX (needed for some patching)
+\usepackage{epigraph}    % For typesetting epigraphs 
+\usepackage{chngcntr}    % Manipulate counters (e.g., figures, tables)
+\usepackage[scale=2]{ccicons}  % Creative Commons icons
+
+% ===============================================================
+% GLOBAL TYPOGRAPHY & PAGE LAYOUT SETTINGS
+% ===============================================================
+
+% Prevent widows and orphans globally
+\widowpenalty=10000         % avoid widows
+\clubpenalty=10000          % avoid orphans
+
+% ===============================================================
+% EPIGRAPH FORMATTING (CMOS STYLE)
+% ===============================================================
+
+\setlength{\epigraphwidth}{0.8\textwidth}  % Width of the epigraph block
+\setlength{\epigraphrule}{0pt}             % Remove horizontal line above epigraph
+\renewcommand{\epigraphflush}{flushright} % Right-align the epigraph source (author/source)
+\renewcommand{\textflush}{flushleft}      % Left-align the epigraph text itself
+\renewcommand{\sourceflush}{flushright}   % Ensure source is consistently right-aligned
+
+% ===============================================================
+% FIGURE NUMBERING
+% ===============================================================
+
+% Remove chapter number prefix from figure numbers. This results in flat figure numbering throughout the document, which solves issues with figures inside unnumbered chapters.
+\counterwithout{figure}{chapter}
+
+% ===============================================================
+% CUSTOM ENVIRONMENTS
+% ===============================================================
+
+% Centered dedication with vertical fill above and below, small italic text
+\newenvironment{mydedication}
+  {\vspace*{\fill}\begin{center}\small\itshape}
+  {\end{center}\vspace*{\fill}}
+
+% Right-aligned acknowledgments block
+\newenvironment{acknowledgments}
+  {\begin{flushright}}
+  {\end{flushright}}
+
+% Italicized anecdote quote environment
+\newenvironment{anecdote}
+  {\begin{quote}\itshape}
+  {\end{quote}}
+
+

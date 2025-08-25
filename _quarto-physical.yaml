@@ -1,0 +1,77 @@
+project:
+  output-dir: _physical
+
+format:
+  titlepage-pdf:
+    titlepage: true
+    titlepage-logo: "images/iubl_pub_logo.png"
+    titlepage-geometry: ["top=2in", "bottom=1in", "right=1in", "left=1in"]
+    titlepage-footer: | # text
+      Indiana University Bloomington Libraries Publishing\
+      Bloomington, Indiana
+    titlepage-theme:
+      elements: ["\\titleblock", "\\authorblock", "\\vfill", "\\logoblock", "\\footerblock"]
+      title-style: "plain"
+      title-fontstyle: ["textbf"]
+      title-fontsize: 24
+      title-space-after: 1cm
+      subtitle-fontsize: 16
+      author-style: "plain"
+      author-fontsize: 16
+      affiliation-style: "none"
+      logo-size: "0.5\\paperwidth"
+      footer-fontfamily: QTHelvetCnd.otf
+      footer-fontsize: 12
+    titlepage-include-file: copyright.tex
+    fontsize: 10pt
+    link-bibliography: false
+    linkcolor: black
+    toc: true
+    lof: true
+    toc-title: "Table of Contents"
+    number-sections: true
+    top-level-division: chapter
+    keep-tex: false
+    echo: false
+    output: true
+    warning: false
+    error: false
+    cache: false
+    fig-dpi: 300
+    dpi: 300
+    cap-location: bottom
+    documentclass: scrreprt
+    fig-align: center
+    cite-method: citeproc
+    citeproc: true
+    biblio-title: "Bibliography"
+    notes-after-punctuation: true
+    reference-location: block
+    geometry: 
+      - paperwidth=6in
+      - paperheight=9in
+      - margin=1in
+    crossref: 
+      chapters: true
+      lst-title: "List of Chapters"
+      sec-prefix: "Chapter"
+    citation: 
+      type: book
+      author: James H. Capshew
+      title: Making Indiana University
+      publisher: Indiana University Bloomington Libraries Publishing
+    lang: "en-US"
+    dir: ltr
+    keywords: historical documentation, history, historiography, university culture, campus design history, university biography, university necrology, historical preservation, historians, archivists
+    subject: History of Indiana University
+    date-meta: "2025"
+    latex-auto-mk: true
+    latex-auto-install: True
+    latex-clean: true
+    latex-min-runs: 4
+    latex-output-dir: tex
+    include-in-header: 
+      - preamble.tex
+      - preamble-physical.tex
+
+

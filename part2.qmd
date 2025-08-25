@@ -1,0 +1,25 @@
+# Part Two: The Campus at Dunn's Woods {.unnumbered #sec-parttwo}
+
+:::: {.content-visible unless-format="pdf"}
+
+::: {.epigraph}
+
+Consult the genius of the place in all.  
+[---Alexander Pope, *Epistles to Several Persons*, "Epistle IV: To Richard Boyle, Earl of Burlington"]{.epigraph-source}
+
+:::
+
+::::
+
+::: {.content-visible when-format="pdf"}
+
+```{=latex}
+\epigraph{
+Consult the genius of the place in all.}  
+{
+\parbox{.75\textwidth}{\raggedleft---Alexander Pope, \textit{Epistles to Several Persons}, "Epistle IV: To Richard Boyle, Earl of Burlington"}}
+```
+
+:::
+
+![A bird's eye view of the campus in 1897, a dozen years after the move to Dunn's Woods. From left to right, Maxwell Hall, Carpenter Shop (demolished), Owen Hall, Assembly Hall (demolished), Power Plant (demolished), Wylie Hall, Kirkwood Hall, Mitchell Hall (demolished). **&copy; Jack H. Smith. Image from the [IU Archives](https://libraries.indiana.edu/university-archives).**](images/birdseye.jpg){fig-alt="Line drawing of the Indiana University campus in 1897, showing buildings, pathways, and trees. A caption identifies the buildings from left to right: Maxwell Hall, Carpenter Shop (demolished), Owen Hall, Assembly Hall (demolished), Power Plant (demolished), Wylie Hall, Kirkwood Hall, and Mitchell Hall (demolished)." fig-scap="A Bird's Eye View of the Campus in 1897"}

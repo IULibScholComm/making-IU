@@ -1,0 +1,23 @@
+# Coda {.unnumbered}
+
+:::: {.content-visible unless-format="pdf"}
+
+::: {.epigraph}
+
+It has been said that history itself is a dialogue in the present with the past about the future.  
+[---Douglass Adair, *Fame and the Founding Fathers*]{.epigraph-source}
+
+:::
+
+::::
+
+::: {.content-visible when-format="pdf"}
+
+```{=latex}
+\epigraph{It has been said that history itself is a dialogue in the present with the past about the future.}
+{---Douglass Adair, \textit{Fame and the Founding Fathers}}
+```
+
+:::
+
+![Postcard of the Sunken Gardens. The old Dunn Quarry on Third Street near Hawthorne Drive was converted into a rock garden in 1928 to serve the recreational needs of the campus. Known by students as the "passion pit," it was demolished to make way for the Jordan Hall greenhouse (now Biology Hall). **Copyright holder unknown. Image from the [IU Archives](https://libraries.indiana.edu/university-archives).**](images/sunkgarden.jpg){fig-alt="Color postcard of the Sunken Gardens at Indiana University, circa 1935. The former Dunn Quarry on Third Street, converted into a rock garden in 1928, features a rustic bridge crossing a small lake in the foreground. The garden is surrounded by stepping stones, grasses, trees, and shrubs. A fraternity house appears in the background." fig-scap="Postcard of the Sunken Gardens"}

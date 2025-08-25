@@ -1,0 +1,68 @@
+# First the Forests {#sec-one}
+
+![Seminary Building](images/miu1.jpeg){width="60%" fig-alt="A drawing of the first academic building, Seminary Building, constructed in 1822 on the original Seminary Square campus."}
+
+:::: {.content-visible unless-format="pdf"}
+
+::: {.epigraph}
+
+This was the order of human institutions: first the forests, after that the huts, then the villages, next the cities, and finally the academies.  
+[---Giambattista Vico, *The New Science*]{.epigraph-source}
+
+:::
+
+:::: 
+
+::: {.content-visible when-format="pdf"}
+
+```{=latex}
+\epigraph{
+This was the order of human institutions: first the forests, after that the huts, then the villages, next the cities, and finally the academies.} 
+{---Giambattista Vico, \textit{The New Science}}
+```
+
+:::
+
+In the beginning, there was the land, covered by a vast deciduous forest. Far from empty, it was full of vegetative life and animals of every size, including humans. Indigenous people lived within this natural abundance---hunting, fishing, and gathering plants for food, shelter, and medicine.  
+
+After the Revolutionary War created the United States of America, the Northwest Territory (spanning six eventual states: Ohio, Indiana, Illinois, Michigan, Wisconsin, and Minnesota) was developed in the late-eighteenth century. European migrants moved in to occupy the homelands of native communities. Treaty after treaty gave a legal gloss to systematic genocidal terror as Indigenous peoples were forcibly removed and property rights were retained by the federal government. Ironically, their absence defined the beginning of "the land of the Indians"---Indiana---and left deep scars from a historical trauma yet to be reconciled.  
+
+As the white population increased to 60,000 (the threshold to petition for statehood), the state of Indiana was carved out of the Indiana Territory in 1816.[@madison2014a, p. 49] The Seventh US Congress granted a township of land (six miles by six miles square, or 23,040 acres) to support a seminary of learning.[See @cep2011a] In 1818, that location became Perry Township in the new county of Monroe. The recently concluded Treaty of St. Mary's ceded Native American lands comprising the central third of the state and was known as the New Purchase. In the southern portion of the New Purchase, Monroe County marked the northern extent of white settlement in the new state. 
+
+On January 20, 1820, the Indiana General Assembly passed a bill to establish a state seminary of learning and designated a board of trustees to oversee its operation. The board, headed by physician David H. Maxwell from the new village of Bloomington (population 300), decided to locate the new seminary in Perry Township on seminary lands, although they could have located it anywhere in the state. They selected a ten-acre site with a spring a quarter mile south of the county courthouse square for the campus of the Indiana State Seminary. Other seminary township lands were sold to provide a meager endowment for the school. 
+
+The site was cleared of trees and other vegetation, marking an opening in the wild forest. The trustees hired contractors to build a classroom building and a professor's house. The next order of business was to find an instructor who could teach Greek and Latin, the foundation of the classical curriculum derived from medieval European roots. As it happened, a Presbyterian minister, Baynard Rush Hall, had moved to Monroe County recently, and, as he later boasted, he was "the very first man since the creation of the world that read Greek in the New Purchase!"[@hall1916a, p. 158] Finally, preparations were complete, and the seminary opened in April 1825, with a dozen young men comprising the student body and Hall as the sole faculty member.  
+
+## Pioneer Bloomington 
+
+Getting to Bloomington required overland travel, typically by horseback, stagecoach, or walking. In the frontier village, log cabins abounded, and the rudimentary dirt roads were full of stumps and turned into muddy messes when it rained. Heating and cooking were managed by stove or fireplace, and the provision of firewood was a constant concern. Residents obtained their food by growing vegetables in home gardens and possessing flocks of chickens, which ranged freely. Hunting wild game as well as slaughtering pigs and cows supplemented diets with meat. 
+
+As the population slowly grew, the amount of land cleared for the construction of houses and crops increased, and the village became more economically diversified and socially stratified. In 1828, the general assembly raised the seminary to the status of a college---Indiana College---and the trustees offered its presidency to Andrew Wylie, a Presbyterian minister who had been a college president in western Pennsylvania. Wylie took up his duties in 1829, joining a faculty of two and a student body of nearly forty. Plans were drawn up for a new college building to provide additional classrooms, a library, and a chemical laboratory. The first commencement, in 1830, celebrated the achievements of four students who had completed the college course.  
+
+In 1833, Cornelius Pering, along with his family, arrived in Bloomington to teach in the nascent Monroe County Female Seminary. An Englishman, he immigrated to the United States the year before. His observations of Bloomington were keen, and he described the small settlement in words and drawings. He noted the ubiquity of tree stumps, including on the rustic unfinished campus: "You will observe that the land has been recently cleared, and that the stumps of the trees are not yet entirely rotten. Trees are always cut down with the axe a foot or two from the ground and the stumps left to rot, which they do in eight or ten years."[@pering1933a, p. 420]  
+
+The first professor, Baynard Hall, who had left in 1832, lamented the wholesale clearing of the land for the campus. Looking back in 1843, he wrote, "That a most sumptuous area had already been marred by the ignorance and cupidity of planners and builders; and among other irremediable evils, not a grove of forest trees had been left standing on the campus."[@hall1916a, p. 71] The great hardwood forests of Indiana were only beginning to be exploited for economic gains at that time, and little attention was paid to other values, including their aesthetic beauty.  
+
+## Original Campus 
+
+In 1835, President Wylie and his wife, Margaret, moved their large family into an imposing two-story brick house located near the college on a twenty-acre farmstead. One of the finest houses in the county, it was a marker of their social status. Meanwhile, the new College Building experienced prolonged delays in construction and was finally opened in 1836. The three-story brick structure was set on a foundation of limestone. Its design was inspired by "a picture of a New England cotton factory [found] on a bolt of muslin in one of the stores of Bloomington" seen by one of the trustees.[@cravens1922a, p. 158.] It housed the chapel, ample recitation rooms, and rooms for the Athenian and Philomathean student literary societies.  
+
+In 1838, with the campus as a going concern in the small town of 1,500, the college was legislatively transformed yet again, into Indiana University, with plans for schools of medicine and law to be established.[See @woodburn1940a, p. 118] That year, the Boarding-House was erected, incorporating the professor's house in its structure. It provided accommodation for thirty to forty students, and residents could grow their own vegetables on the campus.[@cravens1922a, p. 159] (A small laboratory building was also planned but would not be erected until 1840.) Now the campus claimed a physical plant of four buildings---Seminary Building, professor's house, Boarding-House, and College Building. The teaching staff remained small, however, reaching a low of three instructors in 1839.[@woodburn1940a, p. 120] Chronically poor finances and lack of demand for higher education maintained the institutional status quo of basic subsistence.  
+
+The pace of change gained momentum in the 1850s. President Wylie died in 1851, at sixty-two, because of a woodchopping accident. He had led the infant institution for over two decades, ensuring its survival in the face of sectarian controversies and political pressures. His successors were men of the cloth, as the university was led by Protestant ministers until 1884.  
+
+The railroad came to Bloomington in 1853, revolutionizing transportation around the state and beyond. Coincidentally, the railroad tracks were placed along the west boundary of the campus and brought noise, smoke, and danger to a formerly peaceful locale.  
+
+Three years after Wylie died, disaster struck the physical plant. The main College Building was destroyed by fire in 1854, along with the library and administrative records. The small academic community organized the Society of the Alumni to mobilize support for university rebuilding, and the local government, as well as residents, contributed financially. The old Seminary Building and the small Laboratory Building were pressed into service for classroom space as trustees made plans for a new building.  
+
+The plan for the new University Building represented a departure from the past practice of the trustee board acting as building designers. Instead, the board hired a professional architect, the Irish-trained William Tinsley, who practiced in Cincinnati and Indianapolis. The edifice followed a Gothic style modified for college buildings, with brick as the main material, highlighted by handsome stonework made of locally sourced limestone on the windows and entry doors. The new University Building opened in 1855 and featured an image of the university seal, adopted in 1841, carved into the limestone.[See @capshew2019a]
+
+By 1860--61, the faculty had grown to nine men, including the president.[@woodburn1940a, p. 267] Debate over the Civil War roiled the IU campus as well as the town of Bloomington from 1860 to 1865. Some students enlisted in the Union Army; some fought for the Confederacy. Passionate arguments animated the two literary societies as they debated the causes of the war and whether secession was allowable under the US Constitution.[@towne2018a] 
+
+In 1869, the university lost its bid to become the recipient of a federal land grant to teach agriculture and engineering through the Morrill Act when the Indiana General Assembly accepted gifts from Tippecanoe County and John Purdue to establish an agricultural college in West Lafayette.  
+
+Curriculum expansion and increasing enrollments drove the trustees to the decision to build another major building on the campus---Science Hall---to accommodate a natural history museum, a chemical laboratory, the library, and the departments of philosophy, zoology, comparative anatomy, and law. The new science building, completed in 1873, was constructed of brick and trimmed in limestone. Indianapolis architect B. V. Enos designed the structure in collegiate Gothic style, to harmonize with the 1855 University Building.[@cravens1922a, p. 162] These two large academic halls, at right angles to each other, were the principal buildings on the campus site. The old Seminary Building and the Laboratory Building had been torn down in 1858, and the Boarding-House in 1864; some of the material found reuse in other structures in Bloomington.[@cravens1922a, pp. 159--160. The former campus was bought by the City of Bloomington in 1967 and subsequently redeveloped. The northeast corner of the property was designated Seminary Park and received local historic site status in 1976.] 
+
+Prompted by growing enrollments, the 1880s saw much change at Indiana University. Women students became more numerous after their initial admission in 1867, and a few African American students began to attend. Curricular reforms resulted in the expansion of courses of study: ancient classics, modern classics, and science. The faculty, in 1885, numbered twenty-four men.[@iu1885a, pp. 9--11] 
+
+In July 1883, a lightning strike ignited a blaze in Science Hall, and the building, with its library, museum collections, and university records, was destroyed and its contents a total loss. Despite the fact that the fire destroyed nearly half of the physical plant, the members of the university community were not as disheartened as they had been following the 1854 College Building fire. The university was larger and stronger, with an active alumni group, and the state had just started annual appropriations for university operations only months before. The board of trustees, headed by David Banta, a former circuit court judge, moved quickly to stabilize the situation and explore options. Some trustees thought it might be a suitable time to move the campus away from the railroad, and the board looked at several sites. The trustee board decided to buy twenty acres of the Dunn family farm on the eastern outskirts of town. That woodlot became the campus at Dunn's Woods. The new Dunn's Woods campus was ready in 1885, presided over by a new president, the former biology professor David Starr Jordan, who oversaw major changes in the curriculum that accompanied the move.  

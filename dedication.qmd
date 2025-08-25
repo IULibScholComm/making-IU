@@ -1,0 +1,27 @@
+# Dedication {.unnumbered .unlisted}
+
+:::: {.content-visible unless-format="pdf"}
+
+::: {.dedication}
+
+*For Sheila,  
+who was present at the sunrise of my scholarship,  
+returning now for the sunset.  
+Together&hellip;at the last.*  
+
+:::
+
+::::
+
+::: {.content-visible when-format="pdf"}
+
+```{=latex}
+\begin{mydedication}
+For Sheila,\\
+who was present at the sunrise of my scholarship,\\
+returning now for the sunset.\\
+Together\ldots{}at the last.
+\end{mydedication}
+```
+
+:::

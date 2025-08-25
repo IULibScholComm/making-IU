@@ -1,0 +1,131 @@
+format:
+  html:
+    theme:
+      light: default
+      dark: darkly
+    # axe: 
+      # output: document
+    css: style.css
+    anchor-sections: true
+    tabsets: true
+    smooth-scroll: true
+    section-divs: true
+    email-obfuscation: references
+    html-q-tags: true
+    toc: true
+    page-layout: article
+    appendix-style: default
+    appendix-cite-as: [display, bibtex]
+    title-block-style: default
+    lightbox: true
+    link-external-newwindow: true
+    format-links: true
+    citation-location: document
+    citeproc: true
+    footnotes-hover: true
+    crossrefs-hover: true
+    lang: "en-US"
+    number-sections: true
+    fig-cap-location: margin
+    # include-in-header: 
+    respect-user-color-scheme: true
+    code-fold: true
+    code-summary: "Show / Hide Code"
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: true
+    code-block-border-left: true
+    cache: refresh
+    include-after-body: _includes/accessibility-fix.html
+
+  titlepage-pdf:
+    coverpage: true
+    coverpage-bg-image: "images/cover1-4.png"
+    coverpage-theme:
+      title-style: none
+      author-style: none
+      date-style: "none"
+    titlepage: true
+    titlepage-logo: "images/iubl_pub_logo.png"
+    titlepage-geometry: ["top=2in", "bottom=1in", "right=1in", "left=1in"]
+    titlepage-footer: | # text
+      Indiana University Bloomington Libraries Publishing\
+      Bloomington, Indiana
+    titlepage-theme:
+      elements: ["\\titleblock", "\\authorblock", "\\vfill", "\\logoblock", "\\footerblock"]
+      title-style: "plain"
+      title-fontstyle: ["textbf"]
+      title-fontsize: 24
+      title-space-after: 1cm
+      subtitle-fontsize: 16
+      author-style: "plain"
+      author-fontsize: 16
+      affiliation-style: "none"
+      logo-size: "0.5\\paperwidth"
+      footer-fontfamily: QTHelvetCnd.otf
+      footer-fontsize: 12
+    titlepage-include-file: copyright.tex
+    toc: true
+    lof: true
+    toc-title: "Table of Contents"
+    toccolor: blue
+    number-sections: true
+    top-level-division: chapter
+    keep-tex: true
+    linkcolor: blue
+    echo: false
+    output: true
+    warning: false
+    error: false
+    cache: false
+    cap-location: bottom
+    documentclass: scrreprt
+    fig-align: center
+    cite-method: citeproc
+    citeproc: true
+    link-citations: true
+    link-bibliography: true
+    notes-after-punctuation: true
+    reference-links: true
+    reference-location: block
+    crossref: 
+      chapters: true
+      lst-title: "List of Chapters"
+      sec-prefix: "Chapter"
+    citation: 
+      type: book
+      author: James H. Capshew
+      title: Making Indiana University
+      publisher: Indiana University Bloomington Libraries Publishing
+    lang: "en-US"
+    dir: ltr
+    keywords: historical documentation, history, historiography, university culture, campus design history, university biography, university necrology, historical preservation, historians, archivists
+    subject: History of Indiana University
+    date-meta: "2025"
+    latex-auto-mk: true
+    latex-auto-install: True
+    latex-clean: true
+    latex-min-runs: 4
+    latex-output-dir: tex
+    include-in-header: preamble.tex
+
+  epub: 
+    epub-cover-image: images/cover1-4.png
+    css: style.css
+    html-q-tags: true
+    toc: true
+    lang: "en-US"
+    fig-responsive: true
+    number-sections: false
+    keywords: historical documentation, history, historiography, university culture, campus design history, university biography, university necrology, historical preservation, historians, archivists
+    subject: History of Indiana University
+    page-progression-direction: ltr
+    citeproc: true
+    dir: ltr
+    date-meta: YYYY
+    echo: false
+    output: true
+    warning: false
+    error: false
+    cache: false
+

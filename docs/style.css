@@ -1,0 +1,55 @@
+.epigraph {
+  font-size: smaller;             /* Slightly smaller, but not too small */          
+  margin: 2rem auto 2rem auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: left;             /* CMOS prefers block-indented, not center-aligned */
+  max-width: 80ch; 
+  }
+
+.epigraph .epigraph-source {
+  display: block;      
+  text-align: right;
+  margin-top: 1em; 
+  color: #333;            /* Aligns with right edge of .epigraph block */
+  widows: 2;
+  orphans: 2;
+  }
+
+.dedication {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.acknowledgments-story {         
+  font-style: italic;
+  margin: 1.5rem auto;
+  max-width: 80%;
+  text-align: left;
+  opacity: 0.9;
+  }
+
+.acknowledgments-date {
+  display: block;   
+  text-align: right; 
+
+  }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; 
+  height: 1px; 
+  padding: 0; 
+  margin: -1px; 
+  overflow: hidden; 
+  clip: rect(0, 0, 0, 0); 
+  border: 0;
+  white-space: nowrap;
+}

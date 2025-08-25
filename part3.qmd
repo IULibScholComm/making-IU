@@ -1,0 +1,35 @@
+# Part Three: Hidden Histories {.unnumbered #sec-partthree}
+
+:::: {.content-visible unless-format="pdf"}
+
+::: {.epigraph}
+
+Study the historian before you begin to study the facts.  
+[---E.H. Carr, *What is History?*]{.epigraph-source}
+
+:::
+
+::::
+
+::: {.content-visible when-format="pdf"}
+
+```{=latex}
+\epigraph{
+Study the historian before you begin to study the facts.  
+}
+{---E.H. Carr, \textit{What is History?}}
+```
+
+:::
+
+::: {.content-visible unless-format="pdf"}
+
+![Poster for the Centennial Pageant in 1920. With the campus bell tower in the background, feminine spirits occupy the foreground, left to right, symbolizing Indiana University, the State of Indiana, and the United States of America. **&copy; Indiana University. Image from the [IU Archives](https://libraries.indiana.edu/university-archives).**](images/centennial.jpg){fig-alt="Poster reading 'The Centennial Year of Indiana University Bloomington Indiana' with the dates '1820' and '1920.' At the center are three women in flowing robes symbolizing the university, the state, and the nation. On the left, a young woman in a cream robe and crimson tunic holds a torch, representing the university. In the center, another young woman in a green robe and blue tunic holds the Indiana state flag, representing the state; the two young women are holding hands. On the right, a mature woman in white holds the American flag and a stars and stripes shield, representing the nation. The IU bell tower appears in the background." fig-scap="Poster for the Centennial Pageant in 1920" height="70%"}
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+![Poster for the Centennial Pageant in 1920. With the campus bell tower in the background, feminine spirits occupy the foreground, left to right, symbolizing Indiana University, the State of Indiana, and the United States of America. **&copy; Indiana University. Image from the [IU Archives](https://libraries.indiana.edu/university-archives).**](images/centennialrev.jpg){fig-alt="Poster reading 'The Centennial Year of Indiana University Bloomington Indiana' with the dates '1820' and '1920.' At the center are three women in flowing robes symbolizing the university, the state, and the nation. On the left, a young woman in a cream robe and crimson tunic holds a torch, representing the university. In the center, another young woman in a green robe and blue tunic holds the Indiana state flag, representing the state; the two young women are holding hands. On the right, a mature woman in white holds the American flag and a stars and stripes shield, representing the nation. The IU bell tower appears in the background." fig-scap="Poster for the Centennial Pageant in 1920" width="60%"}
+
+:::

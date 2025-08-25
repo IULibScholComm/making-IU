@@ -1,30 +1,10 @@
-# Front Matter
-
-## Acknowledgements
-
-*A scrawny boy, aged 9, pedaled his 20-inch red Schwinn bicycle up Woodlawn Avenue from Bryan Park to the Indiana University campus, looking for adventure. The warm spring air was full of mysterious promise. Accompanied by a friend who lived across the street on Maxwell Lane and one of his brothers, the boys knew that winding paths through the woods, immense gray buildings, and running water would await them. Once on campus grounds, anticipation gave way to delight in the present moment—riding endlessly on interconnected walkways, catching goldfish in the creek left discarded from fraternity parties, searching for a drinking fountain in the cavernous Union building. The waking reverie lasted until the lengthening shadows brought them back to the hunger in their bellies and to the relief of their homes. In the spring and summer of 1964, that boy was introduced to the wonders of university life by the physical environment of the campus, where he was able to engage all of his senses, six blocks away from his home. Still innocent of the ways of place-making, the names Maxwell and Bryan held no connotations. The boy’s name was Jimmy Capshew, and he has lived in the university’s sheltering shadow since.* 
-
-This book was a long time in the making, delayed by the global pandemic. Along the way I received assistance from many people, most notably from the excellent staff of the University Archives at Indiana University Bloomington. I am grateful to my colleagues Dina Kellams, Kristin Leaman, Carrie Schwier, Mary Mellon, Molly Wittenberg, Brad Cook, and Amanda Rindler.  
-
-In 2015, I was drawn into the organization and then operation of the IU Office of the Bicentennial under its mastermind, Kelly Kish, whose administrative acumen is matched only by her prodigious intellect. She always asked the hard questions, but I could count on her for unflagging support. The staff of the Bicentennial Office, including Bre Anne Kusz, Jeremy Hackerd, Sarah Jacobi, Angel Nathan, Sarah Reynolds, Rafal Swiatkowski, and Brittany Terwilliger, buoyed my efforts at every turn.  
-
-I made presentations to several audiences, both local and national, about the research on which this book is based, including the Monroe County History Club, the IU Alumni Association’s Mini University, the Friends of the Monroe County Public Library, and the History of Education Society.  
-
-Several persons facilitated access to documents and shared relevant information, including Anita Bracalente, Jonah Busch, Greg Buse, Carey Champion, Terry Clapacs, Michael Chitwood, Bridget Edwards, Harry Ford, Deborah Lemon, Richard McClelland, Sarah Mincey, David Parkhurst, Eileen Savage, and Indermohan Virk.  
-
-The people who read drafts of chapters occupy a high niche in my personal pantheon: Bre Anne Kusz, Jonah Busch, Duncan Campbell, Carey Champion, Michael Chitwood, Harry Ford, Donald J. Gray, Jeremy Hackerd, Sarah Mincey, Michael Nelson, Laura Plummer, Sarah Reynolds, Eric Sandweiss, Curt Simic, and John Summerlot. It was a pleasure working with illustrator Joe Lee, whom I first met two decades ago.  
-
-When the time came to publish this research, Diane Dallis-Comentale, Ruth Lilly Dean of University Libraries, suggested I try the new publishing service provided by the Department of Scholarly Communication. Adam Mazel, Digital Publishing Librarian, was an excellent guide and an effective colleague in creating my first "born digital" book.  
-
-A special thanks goes to Michael McRobbie, University Chancellor and President Emeritus, who had faith in planning for the university’s future by a thorough understanding of its past.  
-
-Halloween 2024 
+# Front Matter {.unnumbered}
 
 ::: {.content-visible unless-format="pdf" unless-format="epub"}
 
 ## How to Use
 
-**How to Access this Book in Other Formats**
+### How to Access this Book in Other Formats
 
 - **EPUB:** click <i class="bi bi-download"></i> in the left-hand sidebar
     - EPUB's benefits include accessibility, manipulability (via eReader options), dynamic media, interactivity, reflowable text, and offline reading
@@ -35,17 +15,13 @@ Halloween 2024
 - **TeX:** click "<i class="bi bi-github"></i> View source" in the right-hand sidebar; then in the left-hand sidebar, select "TKTKTKTK"
     - (La)TeX's benefits include advanced document formatting and typesetting 
 
-:::
-
-**How to Report a Problem (Technological, Accessibility, Textual, Etc.) with this Book**
+### How to Report a Problem with this Book
 
 Click "Report an issue" in the right-hand sidebar of the [HTML version](); then complete and submit the bug report. 
 
-::: {.content-visible unless-format="pdf" unless-format="epub"}
+### To Learn More
 
-**To Learn More**
-
-To learn more about how to use the HTML book, see [Quarto's Guide](https://quarto.org/docs/guide/), or try its features.
+To learn more about how to use the HTML book, see [Quarto's Guide](https://quarto.org/docs/guide/).
 
 :::
 
@@ -53,12 +29,11 @@ To learn more about how to use the HTML book, see [Quarto's Guide](https://quart
 
 ## Copyright, License, and Permissions
 
-&copy; 2025 James H. Capshew\
+&copy; 2025 James H. Capshew
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://iulibscholcomm.github.io/making-IU/">Making Indiana University: History, Landscape, and a Sense of Place</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://hpsc.indiana.edu/about/emeriti-faculty/capshew-james.html">James H. Capshew</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://iulibscholcomm.github.io/making-IU/">Making Indiana University: History, Landscape, and a Sense of Place</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://hpsc.indiana.edu/about/emeriti-faculty/capshew-james.html">James H. Capshew</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0</a><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Creative Commons Attribution 'By' Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="Creative Commons No-Commercial Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="Creative Commons No-Derivatives Icon" /> unless otherwise indicated.</p>
 
 The illustrations are work for hire created by Joe Lee but owned by their copyright holder, James Capshew.
-
 
 ## Publisher
 
@@ -70,8 +45,15 @@ Bloomington, IN 47405
 
 ## Cover Information
 
-**Cover Image**: 
+**Cover Image**: Joe Lee, 2024; &copy; 2024 James H. Capshew\
+**Cover Design**: Adam Mazel
 
-**Cover Design**: 
+:::
+
+::: {.content-visible when-format="pdf"}
+
+## Abstract
+
+This book sheds light on the creation of Indiana University's institutional identity and image over its two centuries of existence by investigating the role of historians, archivists, and others in documenting its historical record. As such, it is an exercise in historiography, or the study of the history of IU history. The first part presents a rationale for an inclusive view of contributors to IU history, including not only historians and archivists but also architects, groundskeepers, and other members of its academic community. Essays on the contributions of the first professor as well as the invention of the genre of Indiana University history provides a useful provenance. The second section supplies a chronological study of the history of IU's distinctive campus design, from its beginning in 1885 to 2020, to illustrate the essential role that place plays in university culture. The third and final part are essays that uncover hidden efforts to sustain the university's historical record in publications, faculty memorials, and historic preservation. By its interrogation of the sources and methods that construct the historical record, this book makes a unique contribution to the study of Indiana University history and culture.  
 
 :::
