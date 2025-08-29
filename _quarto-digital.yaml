@@ -27,7 +27,6 @@ format:
     lang: "en-US"
     number-sections: true
     fig-cap-location: margin
-    # include-in-header: 
     respect-user-color-scheme: true
     code-fold: true
     code-summary: "Show / Hide Code"
@@ -36,6 +35,8 @@ format:
     code-copy: true
     code-block-border-left: true
     cache: refresh
+    include-in-header: _includes/gtm-head.html
+    include-before-body: _includes/gtm-body.html
     include-after-body: _includes/accessibility-fix.html
 
   titlepage-pdf:
