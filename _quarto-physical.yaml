@@ -4,7 +4,7 @@ project:
 format:
   titlepage-pdf:
     titlepage: true
-    titlepage-logo: "images/iubl_pub_logo.png"
+    titlepage-logo: "images/iubl_pub_logo.jpg"
     titlepage-geometry: ["top=2in", "bottom=1in", "right=1in", "left=1in"]
     titlepage-footer: | # text
       Indiana University Bloomington Libraries Publishing\
