@@ -87,8 +87,14 @@ leaflet() %>%
 
 :::
 
-::: {.content-visible when-format="pdf"}
+::: {.content-visible when-profile="digital" when-format="pdf"}
 
 ![Static version of the IU campus footprint map (1885–2020), based on official campus maps, from twenty acres at the beginning to nearly 2,000 acres at present. The interactive version is available in the HTML edition.](images/imap.PNG){fig-scap="Static version of the IU campus footprint map (1885–2020)" width="85%"}
+
+:::
+
+::: {.content-visible when-profile="physical" when-format="pdf"}
+
+![Static version of the IU campus footprint map (1885–2020), based on official campus maps, from twenty acres at the beginning to nearly 2,000 acres at present. The interactive version is available in the HTML edition.](images/imap.jpg){fig-scap="Static version of the IU campus footprint map (1885–2020)" width="85%"}
 
 :::
