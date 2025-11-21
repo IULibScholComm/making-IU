@@ -17,7 +17,7 @@ Consult the genius of the place in all.
 \epigraph{
 Consult the genius of the place in all.}  
 {
-\parbox{.75\textwidth}{\raggedleft---Alexander Pope, \textit{Epistles to Several Persons}, "Epistle IV: To Richard Boyle, Earl of Burlington"}}
+\parbox{.75\textwidth}{\raggedleft---Alexander Pope, \textit{Epistles to Several Persons}, “Epistle IV: To Richard Boyle, Earl of Burlington”}}
 ```
 
 :::

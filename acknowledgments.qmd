@@ -1,6 +1,22 @@
 # Acknowledgments {.unnumbered}
 
+:::{.content-visible when-format="html"}
+
 ![Boy with bicycle at Jordan River](images/acknowledgements.jpeg){fig-alt="A drawing of a boy wading into the Jordan River, with a bicycle nearby." width="60%"}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Boy with bicycle at Jordan River](images/acknowledgements.jpeg){fig-alt="A drawing of a boy wading into the Jordan River, with a bicycle nearby." width="90%"}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Boy with bicycle at Jordan River](images/acknowledgements.jpeg){fig-alt="A drawing of a boy wading into the Jordan River, with a bicycle nearby."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 

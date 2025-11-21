@@ -1,6 +1,22 @@
 # Establishing University Park {#sec-four}
 
+:::{.content-visible when-format="html"}
+
 ![Owen Hall (left), Wylie Hall (right)](images/miu4.jpeg){width="60%" fig-alt="A drawing of the first two academic buildings constructed on the Dunn's Wood campus---Owen Hall and Wylie Hall---and the paths leading to them."}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Owen Hall (left), Wylie Hall (right)](images/miu4.jpeg){width="90%" fig-alt="A drawing of the first two academic buildings constructed on the Dunn's Wood campus---Owen Hall and Wylie Hall---and the paths leading to them."}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Owen Hall (left), Wylie Hall (right)](images/miu4.jpeg){fig-alt="A drawing of the first two academic buildings constructed on the Dunn's Wood campus---Owen Hall and Wylie Hall---and the paths leading to them."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 
@@ -42,7 +58,7 @@ Given the university's poor financial situation, the trustees simply desired to 
 
 The *Student* newspaper described the remaining structure: "The third, a poor little frame, is used for chapel; [and] stored away in its attic are four or five little rooms, about 12 x 16, where the student must get his philosophy, political economy, literature, languages, & etc."[*Student*, February 1886, cited in @clark1970b, p. 228.]
 
-The city of Bloomington was supportive of the site of the new campus and desired to honor the most distinguished member of the faculty in March 1884: "Since the location of the new University buildings have been known, the citizens, and especially those on 5th street, have been talking of naming that thoroughfare Kirkwood Avenue, in honor of our distinguished townsman, Prof. Kirkwood. Last Friday night a petition was properly presented to the Council, and by a vote the name was so changed. The new University buildings now front on Kirkwood Avenue, if you please."[@bt1884a; See also @edmondson2000a, quote on p. 32, who mistakenly dated it as 1885.]  
+The city of Bloomington was supportive of the site of the new campus and desired to honor the most distinguished member of the faculty in March 1884: "Since the location of the new University buildings have been known, the citizens, and especially those on 5th street, have been talking of naming that thoroughfare Kirkwood Avenue, in honor of our distinguished townsman, Prof. Kirkwood. Last Friday night a petition was properly presented to the Council, and by a vote the name was so changed. The new University buildings now front on Kirkwood Avenue, if you please."[@bt1884a; see also @edmondson2000a, quote on p. 32, who mistakenly dated it as 1885.]  
 
 Soon after campus was opened for classes in 1885, the setting of University Park was highly praised by a local newspaper: "The forest trees in the new college campus now present a scene of true magnificence. Never was there a lovelier scene than the one presented there last Sunday October 1885. It was a lovely Indian summer day, and the earth, the air, the clouds, the sky, and the roseate tints of the stately forest streets seemed to vie with each other in presenting a scene of gorgeousness never excelled by nature."[Bloomington *Saturday Courier* cited in @clark1970b, p. 228.] 
 
@@ -88,7 +104,7 @@ Extravagant practitioners of campustry became the subject of stereotyping and th
 
 >There is one type of undergraduate that is more interesting and more widely known than any other. I refer to that happy-go-lucky individual who parts his hair down the middle and takes a cocktail on the side. He sticks a flower in his buttonhole and a cigarette in his face and imagines himself a superior of Count de Castallane [*sic*] or any other titled foreigner. He is sipping the joys of life and throwing out the dregs. He is a curious combination of saint and sinner, fool and philosopher. He spends fifteen minutes digging on his mathematics and thirty polishing his shoes. You ask him about his work, and he is driven to death. In the forenoon he attends recitations and takes campustry.[@ids1898a]
 
-Many of these romantic encounters were considered casual and flirtatious, but in some cases, they grew into serious relationships and even marriages. "Instead of frowning on Campustry, the University management and faculty, with the result that for many years one-half of the faculty marriage have been the outgrowth of the 'college case.'" By 1903, the *Daily Student* reported that 68 percent of the IU faculty were married to Indiana girls.[@ids1903a] 
+Many of these romantic encounters were considered casual and flirtatious, but in some cases, they grew into serious relationships and even marriages. "Instead of frowning on Campustry, the University management and faculty, with the result that for many years one-half of the faculty marriages have been the outgrowth of the 'college case.'" By 1903, the *Daily Student* reported that 68 percent of the IU faculty were married to Indiana girls.[@ids1903a] 
 
 Not all of the IU students at the turn of the century practiced campustry, however. For instance, in 1898--99, Carrie Parker, the university's first African American female student, did not have time to cavort in the woods as she labored for room and board in the house of a professor and his wife. There were also reports of "immoral students" in Dunn's Woods.^[David Mottier to President Bryan in 1911, reported in @clark1973a, p. 14.]  
 

@@ -1,6 +1,22 @@
 # The First Historian {#sec-two}
 
+:::{.content-visible when-format="html"}
+
 ![Baynard R. Hall](images/miu2.jpeg){width="60%" fig-alt="A drawing of Baynard R. Hall, the first instructor at the state seminary, holding his book, *The New Purchase*, published in 1843."}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Baynard R. Hall](images/miu2.jpeg){width="90%" fig-alt="A drawing of Baynard R. Hall, the first instructor at the state seminary, holding his book, *The New Purchase*, published in 1843."}
+
+:::
+
+::: {.content-visible when-profile="physical"}
+
+![Baynard R. Hall](images/miu2.jpeg){fig-alt="A drawing of Baynard R. Hall, the first instructor at the state seminary, holding his book, *The New Purchase*, published in 1843."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 

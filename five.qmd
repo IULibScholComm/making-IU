@@ -1,6 +1,22 @@
 # Beyond the Quadrangle {#sec-five}
 
+:::{.content-visible when-format="html"}
+
 ![Indiana Memorial Union](images/miu5.jpeg){width="60%" fig-alt="A drawing of the Indiana Memorial Union, dedicated in 1932."}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Indiana Memorial Union](images/miu5.jpeg){width="90%" fig-alt="A drawing of the Indiana Memorial Union, dedicated in 1932."}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Indiana Memorial Union](images/miu5.jpeg){fig-alt="A drawing of the Indiana Memorial Union, dedicated in 1932."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 
@@ -19,7 +35,7 @@ The numerous symbolic references that have marked the history of universities ar
 \epigraph{
 The numerous symbolic references that have marked the history of universities are also captured in "placemaking." The arrangements and styles of buildings and spaces on a given territory are cultural glue. They attract and fix student and faculty loyalties. In fractured disciplinary environments, they create a sense of the whole being greater than any of its parts. They provide continuity: emotional and sentimental anchors in a world where experiences are fleeting. They unite the generations, keeping graduates close to the institution. 
 }
-{---Sheldon Rothblatt, "A Note on the 'Integrity' of the University"}
+{---Sheldon Rothblatt, “A Note on the ‘Integrity’ of the University”}
 ```
 
 :::
@@ -146,7 +162,7 @@ Despite the stock market crash in 1929, campus construction continued. That year
 
 In 1931, the long-planned Chemistry Building was completed. The large and handsome limestone building, decorated with a bold frieze depicting the elements of the periodic table punctuated with clusters of grapes, occupied a site due east of Wylie and Kirkwood Halls, outside of the quadrangle. The well-used amphitheater, the location of many commencement ceremonies and convocation programs, had to be sacrificed to make room for the new building, although one can still see the remnants of the natural ravine near the north entrance.[@myers1952a, pp. 418--419, 434--435; @lyon1931a]
 
-The last of the facilities financed by the Memorial Fund was the Indiana Memorial Union (IMU). Formally dedicated at commencement in June 1932 with an inaugural dinner in Alumni Hall, the building was located south of Jordan River and north of Maxwell Hall, a few steps away from the quadrangle. Richly ornamented limestone carvings embellished the exterior, and the main Romanesque tower rivaled the tallest building in downtown Bloomington a few blocks away. In the lobby, a bronze tablet in the floor depicted the different branches of the military services of the IU men and women memorialized by the building and the Golden Book listed the names of those who served as well as the contributors who donated to the Memorial Fund drive. (Since 1961, the bronze tablet and the Golden Book have been located in the Memorial Room, an antechamber off the lobby.) The east wing was allocated for the university bookstore, which featured a second-floor balcony and lounge with a fireplace. Taken with the graceful luxuriance of its utilitarian design, President Bryan boasted that it was "the most beautiful college bookstore in America." The bookstore manager, Ward G. Biddle, became the first director of the Indiana Memorial Union. Almost immediately, the union became an essential part of campus life as well as an iconic architectural landmark.^[@myers1952a, pp. 413--417; @clapacs2017a, pp. 266--271; [The Golden Book](https://goldenbook.iu.edu/)] 
+The last of the facilities financed by the Memorial Fund was the Indiana Memorial Union (IMU). Formally dedicated at commencement in June 1932 with an inaugural dinner in Alumni Hall, the building was located south of Jordan River and north of Maxwell Hall, a few steps away from the quadrangle. Richly ornamented limestone carvings embellished the exterior, and the main Romanesque tower rivaled the tallest building in downtown Bloomington a few blocks away. In the lobby, a bronze tablet in the floor depicted the different branches of the military services of the IU men and women memorialized by the building and the Golden Book listed the names of those who served as well as the contributors who donated to the Memorial Fund drive. (Since 1961, the bronze tablet and the Golden Book have been located in the Memorial Room, an antechamber off the lobby.) The east wing was allocated for the university bookstore, which featured a second-floor balcony and lounge with a fireplace. Taken with the graceful luxuriance of its utilitarian design, President Bryan boasted that it was "the most beautiful college bookstore in America." The bookstore manager, Ward G. Biddle, became the first director of the Indiana Memorial Union. Almost immediately, the union became an essential part of campus life as well as an iconic architectural landmark.^[@myers1952a, pp. 413--417; @clapacs2017a, pp. 266--271; [The Golden Book.](https://goldenbook.iu.edu/)] 
 
 Two months following the IMU dedication, the national economic situation caught up to the Hoosier economy, and the Indiana General Assembly cut Indiana University's budget request by 15 percent. Soon after, the Bryan administration authorized faculty salary reductions ranging from 8 percent to 12.5 percent. President Bryan, who insisted on an even higher cut to his own salary, received expressions of gratitude from the faculty that the reductions were not higher.[@myers1952a, pp. 436--439.] 
 

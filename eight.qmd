@@ -1,6 +1,22 @@
 # The Keeper of University History {#sec-eight}
 
-![Ivy L. Chamness](images/miu8.jpeg){width="60%" fig-alt="A drawing of Ivy L. Chamness, editor of IU publications from 1914 to 1952." }
+:::{.content-visible when-format="html"}
+
+![Ivy L. Chamness](images/miu8.jpeg){width="60%" fig-alt="A drawing of Ivy L. Chamness, editor of IU publications from 1914 to 1952."}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Ivy L. Chamness](images/miu8.jpeg){width="90%" fig-alt="A drawing of Ivy L. Chamness, editor of IU publications from 1914 to 1952."}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Ivy L. Chamness](images/miu8.jpeg){fig-alt="A drawing of Ivy L. Chamness, editor of IU publications from 1914 to 1952."}
+
+:::
  
 :::: {.content-visible unless-format="pdf"}
 
@@ -18,7 +34,7 @@ If the history of Indiana University is ever written, much of it must needs be c
 ```{=latex}
 \epigraph{
 If the history of Indiana University is ever written, much of it must needs be culled from the catalogues, papers, commencement and other programs which have been preserved by individuals as well as by the University. The mind of man runneth not back to the earliest days, and some of the University records were destroyed in the fires of 1854 and 1883. Extant records, moreover, give us only official acts, and it is to periodicals of the times and to programs of "activities" that we must turn for a picture of college life in those far-off days, seemingly so very, very unlike the present.  }
-{---Ivy L. Chamness, "Indiana University in Earlier Days: I. As Reflected in Commencement and Exhibition Programs"}
+{---Ivy L. Chamness, “Indiana University in Earlier Days: I. As Reflected in Commencement and Exhibition Programs”}
 ```
 
 :::

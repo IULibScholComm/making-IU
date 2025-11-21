@@ -1,6 +1,22 @@
 # Spring Break 2020: A New Watershed? {.unnumbered #sec-coda}
 
+:::{.content-visible when-format="html"}
+
 ![Sample Gates](images/coda.jpeg){width="60%" fig-alt="A drawing of the main pedestrian entrance to Dunn's Woods campus, built in 1987 through a gift by Edson Sample in honor of his parents."}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Sample Gates](images/coda.jpeg){width="90%" fig-alt="A drawing of the main pedestrian entrance to Dunn's Woods campus, built in 1987 through a gift by Edson Sample in honor of his parents."}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Sample Gates](images/coda.jpeg){fig-alt="A drawing of the main pedestrian entrance to Dunn's Woods campus, built in 1987 through a gift by Edson Sample in honor of his parents."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 
@@ -19,7 +35,7 @@ A watershed is a marvelous thing to consider: This process of rain falling, stre
 \epigraph{
 A watershed is a marvelous thing to consider: This process of rain falling, streams flowing, and oceans evaporating causes every molecule of water to make the complete trip once every two million years. The surface is carved into watersheds---kind of familial branching, a chart of relationship, and a definition of place. The watershed is the first and last nation, whose boundaries, though subtly shifting, are unarguable. Races of birds, subspecies of trees, and types of hats or rain gear go by the watershed. The watershed gives us a home, and a place to go upstream, downstream, or across in\ldots{}. Watershed consciousness\ldots{}is not just environmentalism\ldots{}but a move toward a profound citizenship in both the natural and the social worlds. If the ground can be our common ground, we can begin to talk to each other (human and non-human) once again.  
 }
-{---Gary Snyder, "Coming into the Watershed"}
+{---Gary Snyder, “Coming into the Watershed”}
 ```
 
 :::

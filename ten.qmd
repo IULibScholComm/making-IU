@@ -1,6 +1,23 @@
 # The Resurrection of Wylie House {#sec-ten}
 
-![Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lilian Hershey, and Herman Wells. Front row: Wylie children.](images/miu10.jpeg){width="60%" fig-alt="Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lilian Hershey, and Herman Wells. Front row: Wylie children." fig-scap="Wylie House"}
+:::{.content-visible when-format="html"}
+
+![Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lillian Hershey, and Herman Wells. Front row: Wylie children.](images/miu10.jpeg){width="60%" fig-alt="Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lillian Hershey, and Herman Wells. Front row: Wylie children." fig-scap="Wylie House"}
+
+:::
+
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lillian Hershey, and Herman Wells. Front row: Wylie children.](images/miu10.jpeg){width="90%" fig-alt="Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lillian Hershey, and Herman Wells. Front row: Wylie children." fig-scap="Wylie House"}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lillian Hershey, and Herman Wells. Front row: Wylie children.](images/miu10.jpeg){fig-alt="Wylie House. Back row, l-r: Andrew Wylie, Margaret Wylie, Rebecca Wylie, Theophilus Wylie, Lizzie Breckenridge, Lillian Hershey, and Herman Wells. Front row: Wylie children." fig-scap="Wylie House"}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 
@@ -23,12 +40,6 @@ I was always interested in anything that was a living reminder of the antiquity 
 ```
 
 :::
-
-:::: {.content-visible when-profile="physical" when-format="pdf"}
-
-{{< pagebreak >}}
-
-::::
 
 What is the most significant surviving physical artifact from the early history of Indiana University? A handful of early diplomas, handwritten letters, and published materials form a sparse but invaluable documentary record. No physical trace remains of the university's first campus building---only an Indiana state historical marker stands on the site where IU began as the Indiana State Seminary in the 1820s. One possible candidate is the 1843 book *The New Purchase; or, Seven and a Half Years in the Far West*, which offers the first extended narrative about IU, written by its inaugural professor, Baynard Hall.
 

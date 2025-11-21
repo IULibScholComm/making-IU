@@ -1,6 +1,22 @@
 # Cultivating New Ground {#sec-six}
 
+:::{.content-visible when-format="html"}
+
 ![Herman B Wells Library](images/miu6.jpeg){width="60%" fig-alt="A drawing of the main library, dedicated in 1969 and subsequently named for Herman B Wells in 2005."}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Herman B Wells Library](images/miu6.jpeg){width="90%" fig-alt="A drawing of the main library, dedicated in 1969 and subsequently named for Herman B Wells in 2005."}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Herman B Wells Library](images/miu6.jpeg){fig-alt="A drawing of the main library, dedicated in 1969 and subsequently named for Herman B Wells in 2005."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 
@@ -19,7 +35,7 @@ In the United States, the corporate integrity of the university lies in the coll
 \epigraph{
 In the United States, the corporate integrity of the university lies in the college idea, as Newman said, which is itself expressed as a territorial entity denominated the "campus." The campus contains the indispensable innumerable symbols and structures: buildings, gardens, bridges, walks, avenues, glades, statues, plazas, fountains, statuary, towers, gateways and also follies, quirky leftover inheritances in the form of inscriptions, unlikely structures and almost unusable ones.  
 }
-{---Sheldon Rothblatt, ``A Note on the `Integrity' of the University"}
+{---Sheldon Rothblatt, “A Note on the ‘Integrity’ of the University”}
 ```
 
 :::

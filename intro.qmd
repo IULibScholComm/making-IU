@@ -1,6 +1,22 @@
 # Introduction: Past Writers of a Present History {.unnumbered}
 
+::: {.content-visible when-format="html"}
+
 ![Jordan River](images/introduction.jpeg){width="60%" fig-alt="A drawing of Jordan River, now known generically as campus river."}
+
+:::
+
+::: {.content-visible when-profile="digital" when-format="pdf"}
+
+![Jordan River](images/introduction.jpeg){width="90%" fig-alt="A drawing of Jordan River, now known generically as campus river."}
+
+:::
+
+::: {.content-visible when-profile="physical"}
+
+![Jordan River](images/introduction.jpeg){fig-alt="A drawing of Jordan River, now known generically as campus river."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 

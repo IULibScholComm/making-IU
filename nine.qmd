@@ -1,6 +1,22 @@
 # Academic Community and University Necrology {#sec-nine}
 
+:::{.content-visible when-format="html"}
+
 ![Harry G. Day (top), Elizabeth M. Greene (left), Donald J. Gray (bottom)](images/miu9.jpeg){width="60%" fig-alt="A drawing of three stalwarts---Harry Day, Elizabeth Greene, Donald Gray---who supported the role of university necrologist from the 1970's to 2010's."}
+
+:::
+
+:::{.content-visible when-profile="digital" when-format="pdf"}
+
+![Harry G. Day (top), Elizabeth M. Greene (left), Donald J. Gray (bottom)](images/miu9.jpeg){width="90%" fig-alt="A drawing of three stalwarts---Harry Day, Elizabeth Greene, Donald Gray---who supported the role of university necrologist from the 1970's to 2010's."}
+
+:::
+
+:::{.content-visible when-profile="physical"}
+
+![Harry G. Day (top), Elizabeth M. Greene (left), Donald J. Gray (bottom)](images/miu9.jpeg){fig-alt="A drawing of three stalwarts---Harry Day, Elizabeth Greene, Donald Gray---who supported the role of university necrologist from the 1970's to 2010's."}
+
+:::
 
 :::: {.content-visible unless-format="pdf"}
 
