@@ -38,6 +38,7 @@ format:
     include-after-body: _includes/accessibility-fix.html
 
   titlepage-pdf:
+    pdf-standard: [a-4f, ua-2]
     coverpage: true
     coverpage-bg-image: "images/cover1-4.png"
     coverpage-theme:
@@ -81,7 +82,6 @@ format:
     documentclass: scrreprt
     fig-align: center
     cite-method: citeproc
-    citeproc: true
     link-citations: true
     link-bibliography: true
     notes-after-punctuation: true
@@ -102,7 +102,7 @@ format:
     subject: History of Indiana University
     date-meta: "2025"
     latex-auto-mk: true
-    latex-auto-install: True
+    latex-auto-install: true
     latex-clean: true
     latex-min-runs: 4
     latex-output-dir: tex

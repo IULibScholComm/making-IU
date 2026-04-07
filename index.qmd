@@ -2,26 +2,32 @@
 
 ::: {.content-visible unless-format="pdf" unless-format="epub"}
 
-## How to Use
+## Editions and Access
 
-### How to Access this Book in Other Formats
+This book is available in multiple formats to support different reading preferences and uses:
 
-- **EPUB:** click <i class="bi bi-download"></i> in the left-hand sidebar
-    - EPUB's benefits include accessibility, manipulability (via eReader options), dynamic media, interactivity, reflowable text, and offline reading
-- **PDF:** click <i class="bi bi-download"></i> in the left-hand sidebar
-    - PDF's benefits include printability of physical copies
-- **Quarto Markdown (QMD):** click "<i class="bi bi-github"></i> View source" in the right-hand sidebar
-    - QMD's benefits include reusability (revising, remixing, reformatting, repurposing, etc.) via a universal format
-- **TeX:** click "<i class="bi bi-github"></i> View source" in the right-hand sidebar; then in the left-hand sidebar, select "Making-Indiana-University.tex"
-    - (La)TeX's benefits include advanced document formatting and typesetting 
+### Digital
 
-### How to Report a Problem with this Book
+- **HTML (Version of Record):** Read online here. 
+    - The HTML version includes interactive features
+- **EPUB:** Download via the <i class="bi bi-download"></i> icon in the left-hand sidebar.
+    - Reflowable format for eReaders
+- **PDF:** Download via the <i class="bi bi-download"></i> icon in the left-hand sidebar.
+    - Fixed-layout format for printing and offline use
 
-Click "Report an issue" in the right-hand sidebar of the [HTML version](https://iulibrariespublishing.iu.edu/making-IU/); then complete and submit the bug report. 
+### Print 
+The paperback edition is available through major online retailers and bookstores. 
 
-### To Learn More
+- [Amazon](https://www.amazon.com/Making-Indiana-University-History-Landscape/dp/B0GVW1DZXT/ref=sr_1_1?sr=8-1)
+- [Barnes & Noble](https://www.barnesandnoble.com/w/making-indiana-university-james-capshew/1149822098?ean=9798218794088)
+- [Lulu](https://www.lulu.com/shop/james-capshew/making-indiana-university/paperback/product-m2z5krk.html?q=making+indiana+university&page=1&pageSize=4)
 
-To learn more about how to use the HTML book, see [Quarto's Guide](https://quarto.org/docs/guide/).
+**ISBN (paperback):** 979-8-218-79408-8
+
+### Source Files (for reuse and transparency)
+
+- **Quarto Markdown (QMD):** Download via the "<i class="bi bi-github"></i> View source" in the right-hand sidebar.
+- **TeX:** Download via the "<i class="bi bi-github"></i> View source" in the right-hand sidebar; then in the left-hand sidebar, select "Making-Indiana-University.tex".
 
 :::
 
@@ -39,7 +45,7 @@ The illustrations are work for hire created by Joe Lee but owned by their copyri
 
 ![](images/iubl_pub_logo.png){fig-alt="Logo of Indiana University Bloomington Libraries Publishing" width="40%"}\
 
-[Indiana University Bloomington Libraries Publishing](https://libraries.indiana.edu/university-bloomington-publishing)\
+[Indiana University Bloomington Libraries Publishing](https://libraries.indiana.edu/libraries-publishing)\
 1320 E. Tenth Street\
 Bloomington, IN 47405
 
