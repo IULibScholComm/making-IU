@@ -2,18 +2,15 @@
 
 ::: {.content-visible unless-format="pdf" unless-format="epub"}
 
-## Editions and Access
+## Editions and Formats
 
-This book is available in multiple formats to support different reading preferences and uses:
+This book is available in several editions and formats to support different reading preferences and uses.
 
 ### Digital
 
-- **HTML (Version of Record):** Read online here. 
-    - The HTML version includes interactive features
+- **HTML:** Version of Record. 
 - **EPUB:** Download via the <i class="bi bi-download"></i> icon in the left-hand sidebar.
-    - Reflowable format for eReaders
 - **PDF:** Download via the <i class="bi bi-download"></i> icon in the left-hand sidebar.
-    - Fixed-layout format for printing and offline use
 
 ### Print 
 The paperback edition is available through major online retailers and bookstores. 
@@ -24,10 +21,12 @@ The paperback edition is available through major online retailers and bookstores
 
 **ISBN (paperback):** 979-8-218-79408-8
 
-### Source Files (for reuse and transparency)
+### Source Files 
 
-- **Quarto Markdown (QMD):** Download via the "<i class="bi bi-github"></i> View source" in the right-hand sidebar.
-- **TeX:** Download via the "<i class="bi bi-github"></i> View source" in the right-hand sidebar; then in the left-hand sidebar, select "Making-Indiana-University.tex".
+Source files are available through the **View source** link in the right-hand sidebar.
+
+- **Quarto Markdown (QMD)**
+- **TeX** (`Making-Indiana-University.tex`)
 
 :::
 
@@ -37,9 +36,9 @@ The paperback edition is available through major online retailers and bookstores
 
 &copy; 2025 James H. Capshew
 
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://iulibrariespublishing.iu.edu/making-IU/">Making Indiana University: History, Landscape, and a Sense of Place</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://hpsc.indiana.edu/about/emeriti-faculty/capshew-james.html">James H. Capshew</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0</a><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Creative Commons Attribution 'By' Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="Creative Commons No-Commercial Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="Creative Commons No-Derivatives Icon" /> unless otherwise indicated.</p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://iulibrariespublishing.iu.edu/making-IU/">Making Indiana University: History, Landscape, and a Sense of Place</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://hpsc.indiana.edu/about/emeriti-faculty/capshew-james.html">James H. Capshew</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0</a><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Creative Commons Attribution 'By' Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="Creative Commons NonCommercial Icon" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="Creative Commons NoDerivatives Icon" /> unless otherwise indicated.</p>
 
-The illustrations are work for hire created by Joe Lee but owned by their copyright holder, James Capshew.
+The illustrations were created by Joe Lee as works made for hire and are owned by their copyright holder, James H. Capshew.
 
 ## Publisher
 
