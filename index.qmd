@@ -2,9 +2,9 @@
 
 ::: {.content-visible unless-format="pdf" unless-format="epub"}
 
-## Editions and Formats
+## Access and Formats
 
-This book is available in several editions and formats to support different reading preferences and uses.
+This book is available in multiple formats for a range of reading preferences and uses.
 
 ### Digital
 
@@ -13,6 +13,7 @@ This book is available in several editions and formats to support different read
 - **PDF:** Download via the <i class="bi bi-download"></i> icon in the left-hand sidebar.
 
 ### Print 
+
 The paperback edition is available through major online retailers and bookstores. 
 
 - [Amazon](https://www.amazon.com/Making-Indiana-University-History-Landscape/dp/B0GVW1DZXT/ref=sr_1_1?sr=8-1)
@@ -23,7 +24,7 @@ The paperback edition is available through major online retailers and bookstores
 
 ### Source Files 
 
-Source files are available through the **View source** link in the right-hand sidebar.
+Source files are available via the **View source** link in the right-hand sidebar.
 
 - **Quarto Markdown (QMD)**
 - **TeX** (`Making-Indiana-University.tex`)
