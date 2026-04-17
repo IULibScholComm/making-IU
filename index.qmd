@@ -14,13 +14,13 @@ This book is available in multiple formats for a range of reading preferences an
 
 ### Print 
 
-The paperback edition is available through major online retailers and bookstores. 
+The paperback edition is made available through third-party providers, including major online retailers and brick-and-mortar bookstores. Revenue from print sales is retained by the print-on-demand provider, the retailer, and the author; IU Libraries Publishing and Indiana University do not receive revenue from these sales and do not endorse or have a commercial relationship with vendors of the print edition, including those below. Links are provided for reader convenience.
 
 - [Amazon](https://www.amazon.com/Making-Indiana-University-History-Landscape/dp/B0GVW1DZXT/ref=sr_1_1?sr=8-1)
 - [Barnes & Noble](https://www.barnesandnoble.com/w/making-indiana-university-james-capshew/1149822098?ean=9798218794088)
 - [Lulu](https://www.lulu.com/shop/james-capshew/making-indiana-university/paperback/product-m2z5krk.html?q=making+indiana+university&page=1&pageSize=4)
 
-**ISBN (paperback):** 979-8-218-79408-8
+**ISBN:** 979-8-218-79408-8
 
 ### Source Files 
 
