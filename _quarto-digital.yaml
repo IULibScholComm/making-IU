@@ -36,6 +36,16 @@ format:
     code-block-border-left: true
     cache: refresh
     include-after-body: _includes/accessibility-fix.html
+    include-in-header:
+      - text: |
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              if (document.querySelector("h1.title")) {
+                document.title =
+                  "Making Indiana University: History, Landscape, and a Sense of Place";
+              }
+            });
+          </script> 
 
   titlepage-pdf:
     pdf-standard: [a-4f, ua-2]
@@ -91,16 +101,10 @@ format:
       chapters: true
       lst-title: "List of Chapters"
       sec-prefix: "Chapter"
-    citation: 
-      type: book
-      author: James H. Capshew
-      title: Making Indiana University
-      publisher: Indiana University Bloomington Libraries Publishing
     lang: "en-US"
     dir: ltr
     keywords: historical documentation, history, historiography, university culture, campus design history, university biography, university necrology, historical preservation, historians, archivists
     subject: History of Indiana University
-    date-meta: "2025"
     latex-auto-mk: true
     latex-auto-install: true
     latex-clean: true
@@ -121,7 +125,6 @@ format:
     page-progression-direction: ltr
     citeproc: true
     dir: ltr
-    date-meta: YYYY
     echo: false
     output: true
     warning: false

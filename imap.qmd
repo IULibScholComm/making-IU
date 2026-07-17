@@ -1,12 +1,33 @@
 # Campus Expansion Map (1885–2020) {.unnumbered}
 
+```{r}
+#| include: false
+
+execute_info <- jsonlite::fromJSON(
+  Sys.getenv("QUARTO_EXECUTE_INFO")
+)
+
+is_html_output <- grepl(
+  "^html",
+  execute_info$format$pandoc$to
+)
+```
+
 :::: {.content-hidden when-format="pdf" when-format="epub"}
 
 ::: {role="region" aria-label="IU campus footprint over time (1885–2020), according to official campus maps."}
 
-```{r}
+```{r, eval=is_html_output}
 #| fig-height: 7
 #| fig-cap: IU campus footprint over time (1885–2020), according to official campus maps, from twenty acres at the beginning to nearly 2,000 acres at present.<br><br>This interactive map illustrates the expansion of Indiana University Bloomington’s campus by overlaying its boundaries from the official campus maps of 1885, 1915, 1940, 1960, 1980, and 2020 onto a contemporary street map of Bloomington.<br><br>Sighted users can explore the map by toggling year layers to compare how the campus's shape and extent have changed. Screen reader users should refer to the static version (@fig-map), as interactive maps do not support alt text.
+
+execute_info <- jsonlite::fromJSON(
+  Sys.getenv("QUARTO_EXECUTE_INFO")
+)
+
+if (!grepl("^html", execute_info$format$pandoc$to)) {
+  knitr::opts_chunk$set(eval = FALSE)
+}
 
 # Load required libraries
 # For suppressing startup messages for cleaner output, and reading and working with spatial vector data

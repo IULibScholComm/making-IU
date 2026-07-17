@@ -1,43 +1,254 @@
 <script>
-  window.addEventListener("DOMContentLoaded", function () {
-    function addVisuallyHiddenText(link, text) {
-      if (!link.querySelector(".visually-hidden")) {
-        const span = document.createElement("span");
-        span.className = "visually-hidden";
-        span.textContent = text;
-        link.appendChild(span);
-      }
+(() => {
+  function applyAccessibilityFixes() {
+    function markIconsDecorative(element) {
+      element.querySelectorAll("img").forEach((image) => {
+        image.setAttribute("alt", "");
+        image.setAttribute("aria-hidden", "true");
+      });
+
+      element.querySelectorAll("i, svg").forEach((icon) => {
+        icon.setAttribute("aria-hidden", "true");
+
+        if (icon.tagName.toLowerCase() === "svg") {
+          icon.setAttribute("focusable", "false");
+        }
+      });
     }
 
-    // ORCID links are <a.quarto-title-author-orcid>
-    document.querySelectorAll(".quarto-title-author-orcid").forEach(orcidLink => {
-      const orcidImg = orcidLink.querySelector("img");
-      if (orcidImg) {
-        orcidImg.setAttribute("role", "presentation");
-        orcidImg.setAttribute("alt", "");
-      }
-      orcidLink.setAttribute("aria-label", "Author's ORCID profile");
-      addVisuallyHiddenText(orcidLink, "Author's ORCID profile");
-    });
+    function getBookTitle() {
+      return (
+        document.querySelector(".sidebar-title a")?.textContent.trim() ||
+        document.querySelector("h1.title")?.textContent.trim() ||
+        "Book"
+      );
+    }
 
-    // Email links similarly
-    document.querySelectorAll(".quarto-title-author-email").forEach(emailLink => {
-      const emailImg = emailLink.querySelector("img");
-      if (emailImg) {
-        emailImg.setAttribute("role", "presentation");
-        emailImg.setAttribute("alt", "");
-      }
-      emailLink.setAttribute("aria-label", "Email the author");
-      addVisuallyHiddenText(emailLink, "Email the author");
-    });
-    document.querySelectorAll('a.pagination-link[aria-label=""]').forEach(link => {
-        link.setAttribute('aria-label', 'Next page');
-        // Optionally add visible text if needed
-        const span = link.querySelector('.nav-page-text');
-        if(span && !span.textContent.trim()) {
-            span.textContent = 'Next page';
+    function getAuthorName(link) {
+      const authorContainer =
+        link.closest(".quarto-title-meta-contents") ||
+        link.closest(".quarto-title-meta-author") ||
+        link.parentElement;
+
+      const authorElement =
+        authorContainer?.querySelector(".quarto-title-author-name") ||
+        authorContainer?.querySelector(".author");
+
+      return (
+        authorElement?.textContent
+          ?.replace(/\s+/g, " ")
+          .trim() || ""
+      );
+    }
+
+    /*
+     * Give navigation landmarks unique accessible names.
+     */
+    const bookSidebar = document.querySelector("#quarto-sidebar");
+
+    if (bookSidebar) {
+      bookSidebar.setAttribute("aria-label", "Book contents");
+    }
+
+    const pageToc = document.querySelector("#TOC");
+
+    if (pageToc) {
+      pageToc.setAttribute("aria-label", "On this page");
+      pageToc.removeAttribute("aria-labelledby");
+    }
+
+    document
+      .querySelectorAll("nav.quarto-secondary-nav")
+      .forEach((navigation, index) => {
+        navigation.setAttribute(
+          "aria-label",
+          index === 0
+            ? "Page controls"
+            : `Page controls ${index + 1}`
+        );
+      });
+
+    document
+      .querySelectorAll("nav.quarto-page-breadcrumbs")
+      .forEach((navigation, index) => {
+        navigation.setAttribute(
+          "aria-label",
+          index === 0
+            ? "Breadcrumb"
+            : `Breadcrumb ${index + 1}`
+        );
+      });
+
+    document
+      .querySelectorAll("nav.page-navigation")
+      .forEach((navigation, index) => {
+        navigation.setAttribute(
+          "aria-label",
+          index === 0
+            ? "Chapter pagination"
+            : `Chapter pagination ${index + 1}`
+        );
+      });
+
+    /*
+     * Remove the inappropriate navigation role from Quarto's
+     * empty mobile-sidebar toggle anchor.
+     */
+    document
+      .querySelectorAll(
+        'a[role="navigation"][data-bs-target=".quarto-sidebar-collapse-item"]'
+      )
+      .forEach((link) => {
+        link.removeAttribute("role");
+      });
+
+    /*
+     * Label the linked sidebar logo by its navigational purpose.
+     * The duplicate light- and dark-mode images are decorative.
+     */
+    const bookTitle = getBookTitle();
+
+    document
+      .querySelectorAll("a.sidebar-logo-link")
+      .forEach((link) => {
+        link.setAttribute("aria-label", `${bookTitle} home`);
+        markIconsDecorative(link);
+      });
+
+    /*
+     * Label icon-only display controls.
+     */
+    document
+      .querySelectorAll("a.quarto-color-scheme-toggle")
+      .forEach((link) => {
+        if (!link.getAttribute("aria-label")?.trim()) {
+          link.setAttribute("aria-label", "Toggle color scheme");
         }
-        });
 
-  });
+        markIconsDecorative(link);
+      });
+
+    document
+      .querySelectorAll("a.quarto-reader-toggle")
+      .forEach((link) => {
+        if (!link.getAttribute("aria-label")?.trim()) {
+          link.setAttribute("aria-label", "Toggle reader mode");
+        }
+
+        markIconsDecorative(link);
+      });
+
+    /*
+     * Label icon-only ORCID links.
+     */
+    document
+      .querySelectorAll("a.quarto-title-author-orcid")
+      .forEach((link) => {
+        const existingLabel =
+          link.getAttribute("aria-label")?.trim();
+
+        if (!existingLabel) {
+          const authorName = getAuthorName(link);
+
+          link.setAttribute(
+            "aria-label",
+            authorName
+              ? `View ${authorName}'s ORCID profile`
+              : "View the author's ORCID profile"
+          );
+        }
+
+        markIconsDecorative(link);
+      });
+
+    /*
+     * Label icon-only author email links.
+     */
+    document
+      .querySelectorAll("a.quarto-title-author-email")
+      .forEach((link) => {
+        const existingLabel =
+          link.getAttribute("aria-label")?.trim();
+
+        if (!existingLabel) {
+          const authorName = getAuthorName(link);
+          const href = link.getAttribute("href") || "";
+
+          const emailAddress = href.startsWith("mailto:")
+            ? decodeURIComponent(
+                href.slice("mailto:".length).split("?")[0]
+              )
+            : "";
+
+          let label = "Email the author";
+
+          if (authorName && emailAddress) {
+            label = `Email ${authorName} at ${emailAddress}`;
+          } else if (authorName) {
+            label = `Email ${authorName}`;
+          } else if (emailAddress) {
+            label = `Email ${emailAddress}`;
+          }
+
+          link.setAttribute("aria-label", label);
+        }
+
+        markIconsDecorative(link);
+      });
+
+    /*
+     * Repair pagination links only when Quarto supplied neither
+     * visible text nor an accessible name.
+     */
+    document.querySelectorAll("a.pagination-link").forEach((link) => {
+      const visibleText = link.textContent.trim();
+      const existingLabel =
+        link.getAttribute("aria-label")?.trim();
+
+      if (visibleText || existingLabel) {
+        return;
+      }
+
+      const rel = link.getAttribute("rel");
+
+      const isNext =
+        rel === "next" ||
+        link.classList.contains("nav-page-next") ||
+        Boolean(link.closest(".nav-page-next"));
+
+      const isPrevious =
+        rel === "prev" ||
+        rel === "previous" ||
+        link.classList.contains("nav-page-previous") ||
+        Boolean(link.closest(".nav-page-previous"));
+
+      link.setAttribute(
+        "aria-label",
+        isNext
+          ? "Next page"
+          : isPrevious
+            ? "Previous page"
+            : "Go to page"
+      );
+    });
+  }
+
+  /*
+   * The sidebar, header navigation, and page TOC already exist
+   * when an include-after-body file is encountered.
+   */
+  applyAccessibilityFixes();
+
+  /*
+   * Run again after parsing finishes to catch elements that
+   * Quarto places later in the document, especially pagination.
+   */
+  if (document.readyState === "loading") {
+    document.addEventListener(
+      "DOMContentLoaded",
+      applyAccessibilityFixes,
+      { once: true }
+    );
+  }
+})();
 </script>

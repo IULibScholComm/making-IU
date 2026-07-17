@@ -26,9 +26,6 @@ The paperback edition is made available through third-party providers, including
 
 Source files are available via the **View source** link in the right-hand sidebar.
 
-- **Quarto Markdown (QMD)**
-- **TeX** (`Making-Indiana-University.tex`)
-
 :::
 
 ::: {.content-visible unless-format="pdf"}

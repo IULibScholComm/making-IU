@@ -8,8 +8,11 @@ book:
   title: Making Indiana University
   subtitle: History, Landscape, and a Sense of Place
   author: 
-    name: James H. Capshew
-    corresponding: true
+    name: 
+      given: James H. 
+      family: Capshew
+    attributes:
+      corresponding: true
     affiliations: 
       - name: |- 
           Department of History and Philosophy of Science and Medicine
@@ -18,8 +21,8 @@ book:
         department: History and Philosophy of Science and Medicine
         address: Ballantine Hall 920
         city: Bloomington
-        state: IN
-        country: USA
+        region: IN
+        country: US
         postal-code: 47405
         url: https://hpsc.indiana.edu/index.html
         ror: https://ror.org/02k40bc56
@@ -28,13 +31,12 @@ book:
     orcid: 0009-0009-3238-9464
     degrees: 
       - Ph.D.
-  date: last-modified
+  date: 2026-04-24
   date-format: "YYYY"
   abstract: |
     This book sheds light on the creation of Indiana University's institutional identity and image over its two centuries of existence by investigating the role of historians, archivists, and others in documenting its historical record. As such, it is an exercise in historiography, or the study of the history of IU history. The first part presents a rationale for an inclusive view of contributors to IU history, including not only historians and archivists but also architects, groundskeepers, and other members of its academic community. Essays on the contributions of the first professor as well as the invention of the genre of Indiana University history provides a useful provenance. The second section supplies a chronological study of the history of IU's distinctive campus design, from its beginning in 1885 to 2020, to illustrate the essential role that place plays in university culture. The third and final part are essays that uncover hidden efforts to sustain the university's historical record in publications, faculty memorials, and historic preservation. By its interrogation of the sources and methods that construct the historical record, this book makes a unique contribution to the study of Indiana University history and culture.  
   description: |
     Essays exploring institutional culture, campus design, and sense of place at Indiana University Bloomington. 
-  references: references.bib
   cover-image: images/cover1-4.png
   cover-image-alt: Front cover of book with title, subtitle, and author surrounding a drawing of the Rose Well House, constructed in 1908 and named for its benefactor, Theodore Rose, class of 1875. Located in Dunn's Woods near Owen Hall and Wylie Hall. 
   downloads: [pdf, epub]
@@ -42,7 +44,7 @@ book:
   language: "en-US"
   license: "CC BY-NC-ND 4.0"
   type: book
-  publisher: "Indiana University Libraries Publishing"
+  publisher: "Indiana University Bloomington Libraries Publishing"
   publisher-place: Bloomington, IN
   favicon: images/cover1-4.png
   site-url: https://iulibrariespublishing.iu.edu/making-IU/
@@ -61,16 +63,31 @@ book:
   image: images/cover1-4.png
   image-alt: A drawing of the Rose Well House, constructed in 1908 and named for its benefactor, Theodore Rose, class of 1875. Located in Dunn's Woods near Owen Hall and Wylie Hall. 
   bread-crumbs: true
-  twitter-card: true
-  open-graph: true
+  twitter-card:
+    title: "Making Indiana University: History, Landscape, and a Sense of Place"
+    description: >-
+      A historiographical study of Indiana University's institutional culture, campus landscape, historical record, and sense of place.
+    image: images/cover1-4.png
+    image-alt: >-
+      Cover of Making Indiana University, featuring a drawing of the Rose Well House in Dunn's Woods.
+    card-style: summary_large_image
+
+  open-graph:
+    title: "Making Indiana University: History, Landscape, and a Sense of Place"
+    description: >-
+      A historiographical study of Indiana University's institutional culture, campus landscape, historical record, and sense of place.
+    image: images/cover1-4.png
+    image-alt: >-
+      Cover of Making Indiana University, featuring a drawing of the Rose Well House in Dunn's Woods.
+    locale: en_US
+    site-name: "Making Indiana University"
+
   sidebar: 
-    aria-label: Table of Contents
     style: docked
     collapse-level: 1
     pinned: true
     logo: images/cover1-4.png
-    logo-alt: A drawing of the Rose Well House, constructed in 1908 and named for its benefactor, Theodore Rose, class of 1875. Located in Dunn's Woods near Owen Hall and Wylie Hall. 
-
+    logo-alt: "Making Indiana University home"
   chapters:
     - index.qmd
     - dedication.qmd
@@ -100,6 +117,20 @@ citations-hover: true
 bibliography: references.bib
 nocite: |
   @*
+
+citation:
+  type: book
+  title: "Making Indiana University: History, Landscape, and a Sense of Place"
+  author:
+    - given: James H.
+      family: Capshew
+  issued: 2026-04-24
+  doi: 10.5967/m1tv-xc36
+  publisher: "Indiana University Bloomington Libraries Publishing"
+  publisher-place: "Bloomington, IN"
+  url: https://iulibrariespublishing.iu.edu/making-IU/
+  abstract: >-
+    A historiographical study of the institutional identity, historical record, campus landscape, and sense of place of Indiana University over two centuries.
 
 profile:
   group:
